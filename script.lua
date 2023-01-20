@@ -19,10 +19,10 @@ local Window = Rayfield:CreateWindow({
 		Title = "Key System",
 		Subtitle = "Welcome To The Key System!",
 		Note = "A premium key costs R$300 robux to purchase it DM Insanity#6969",
-		FileName = "InterceptKey",
+		FileName = "PainlessKEY",
 		SaveKey = true,
 		GrabKeyFromSite = false, 
-		Key = "imaskid"
+		Key = ":thumbskull:"
 		
 
 	}
@@ -32,7 +32,7 @@ local Window = Rayfield:CreateWindow({
 
 local Main = Window:CreateTab("Main", 4483362458) 
 
-local Section = Main:CreateSection("Main")
+local Section = Main:CreateSection("Main")  
 
 local Paragraph = Main:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, Insert Epic Name"})
 
@@ -47,6 +47,29 @@ local Button = Main:CreateButton({
 	Name = "Die",
 	Callback = function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end,
+})
+
+local Button = Main:CreateButton({
+	Name = "2016 Nostalgia",
+	Callback = function()
+	    --// config settings
+getgenv().config = {
+    old_console = true,
+    old_plist = true,
+    old_graphics = true,
+    dev = false
+}
+
+--// mods
+getgenv().mods = {
+    fps_counter = true,
+    built_in_silentre = false,
+    c00l_mode = false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/lua-projects/main/project%202016%3A%20Remastered/Main.lua"))()
+
 	end,
 })
 
@@ -191,16 +214,23 @@ local Button = ScriptTab:CreateButton({
 })
 
 local Button = ScriptTab:CreateButton({
-	Name = "Edgelord",
+	Name = "Titan",
 	Callback = function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/Nameless/main/Edgelord.lua"))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/tall-boi/main/big%20as%20fuck.lua'),true))()
 	end,
 })
 
 local Button = ScriptTab:CreateButton({
-	Name = "Pet Dog [HATS NEEDED]",
+	Name = "Cube",
 	Callback = function()
-	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/Dog/main/God.lua'),true))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/c-u-b-e/main/c%20u%20b%20e.lua'),true))()
+	end,
+})
+
+local Button = ScriptTab:CreateButton({
+	Name = "Edgelord",
+	Callback = function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/Nameless/main/Edgelord.lua"))()
 	end,
 })
 	
@@ -212,53 +242,26 @@ local Button = ScriptTab:CreateButton({
 })
 
 local Button = ScriptTab:CreateButton({
-	Name = "Eggdog Car [HATS NEEDED]",
-	Callback = function()
-	    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solomonexy/Eggdog/main/e%20g%20g.lua'))()
-	end,
-})
-
-local Button = ScriptTab:CreateButton({
-	Name = "Race Car [HATS NEEDED]",
-	Callback = function()
-	    loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
-	end,
-})
-
-local Button = ScriptTab:CreateButton({
 	Name = "Big Box V2 [HATS NEEDED]",
 	Callback = function()
 	    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solomonexy/block/main/MyamazonPackage.lua',true))()
 	end,
 })
-
-local Button = ScriptTab:CreateButton({
-	Name = "Skateboard [HATS NEEDED]",
-	Callback = function()
-	    loadstring(game:HttpGet("https://pastebin.com/raw/XAXCaupJ"))()
-	end,
-})
-
 -- Brazil Scripts
 
 local brazil = Window:CreateTab("Brazil", 4483362458) 
 
 local Section = brazil:CreateSection("YOUR GOING TO BRAZIL!")
 
+
 local Button = brazil:CreateButton({
-	Name = "No Touchey",
+	Name = "Stalker [HATS NEEDED]",
 	Callback = function()
-        _G.KeyCode = "E"
-        loadstring(game:HttpGet("https://shattered-gang.lol/scripts/fe/touch_fling.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Solomonexy/Stalker/main/Ghost.lua"))()
 	end,
 })
 
-local Button = brazil:CreateButton({
-	Name = "Exotic Lighting",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/EL/main/Exotic%20Lighting.lua"))()
-	end,
-})
+
 
 local Button = brazil:CreateButton({
 	Name = "Scp 173 [HATS NEEDED]",
@@ -268,12 +271,6 @@ local Button = brazil:CreateButton({
 	end,
 })
 
-local Button = brazil:CreateButton({
-	Name = "Sniper Fling [HATS NEEDED]",
-	Callback = function()
-		loadstring(game:HttpGetAsync("https://pastebin.com/raw/njZ8eDjS"))()
-	end,
-})
 
 local Button = brazil:CreateButton({
 	Name = "Sword Fling [HATS NEEDED]",
@@ -301,6 +298,91 @@ local Button = brazil:CreateButton({
 	Name = "SCP 096 [HATS NEEDED]",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Solomonexy/SCP-096/main/Sussy%20SCP.lua"))()
+	end,
+})
+
+-- Brazil [free edition]
+local nohats = Window:CreateTab("Brazil [No Hats]", 4483362458) 
+
+local Section = nohats:CreateSection("BRAZIL [Free Edition]")  
+
+local Button = nohats:CreateButton({
+	Name = "No Touchey",
+	Callback = function()
+        _G.KeyCode = "E"
+        loadstring(game:HttpGet("https://shattered-gang.lol/scripts/fe/touch_fling.lua"))()
+	end,
+})
+
+local Button = nohats:CreateButton({
+	Name = "Exotic Lighting",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/EL/main/Exotic%20Lighting.lua"))()
+	end,
+})
+
+local Button = nohats:CreateButton({
+	Name = "Grandmaster",
+	Callback = function()
+        -- Methods
+local Methods = loadstring(game:HttpGet("https://raw.githubusercontent.com/coolsk8rboy/The-John-Cena-Factory/main/JohnCenasMain.lua"))()
+-- Setup
+Methods:SetIdleAnimation(7142933331, .1)
+Methods:SetWalkAnimation(7142732585, .1)
+Methods:SetWalkSpeed(8)
+Methods:EnableSprinting(7142895580, .1, 25)
+-- Fling
+Methods:BodyPartFlingOnTouch("Right Arm")
+Methods:BodyPartFlingOnTouch("Left Arm")
+Methods:BodyPartFlingOnTouch("Right Leg")
+Methods:BodyPartFlingOnTouch("Left Leg")
+-- Key Connections
+Methods:OnKeyPress("q", function()
+    Methods:ApplyVelocityFoward(-5)
+    Methods:ApplyVelocityUpward(80)
+    Methods:PlayAnimation(7142738887, .1, 5)
+end)
+Methods:OnKeyPress("e", function()
+    Methods:ApplyVelocityFoward(5)
+    Methods:ApplyVelocityUpward(80)
+    Methods:PlayAnimation(6936454190, .1, 5)
+end)
+-- Attacks
+Methods:NewAttack("Attack1", "z", 7142975235, .1, 3)
+Methods:NewAttack("Attack2", "x", 7142973417, .1, 3)
+Methods:NewAttack("Attack3", "c", 7142740591, .1, 3)
+Methods:NewAttack("Attack4", "v", 7142741890, .1, 3)
+Methods:NewAttack("Attack5", "b", 6936458635, .1, 3)
+Methods:NewAttack("Attack6", "t", 4837749916, .1, 2)
+-- Finishing up
+Methods:SetScriptCreator("CROAXER")
+Methods:SystemMessage([[Controls:
+z - Combo 1
+x - Combo 2
+c - Combo 3
+v - Combo 4
+b - Combo 5
+e - Front Flip
+q - Back Flip
+t - Taunt
+Left Alt - Sprint
+]])
+Methods:PlaySound(1842802203, true)
+Methods:RunScript()
+    end,
+})
+
+local Button = nohats:CreateButton({
+	Name = "Raybeam",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Solomonexy/Raybeam/main/Beam'd.lua"))()
+	end,
+})
+
+local Button = nohats:CreateButton({
+	Name = "Server Admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Solomonexy/ServerAdmin/main/Admin%20%5Bnot%5D.lua"))()
 	end,
 })
 
@@ -343,6 +425,13 @@ local Button = hubs:CreateButton({
 	Name = "Infinite Yield [UNIVERSAL]",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end,
+})
+
+local Button = hubs:CreateButton({
+	Name = "Pendulum Hub [UNIVERSAL]",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 	end,
 })
 
@@ -1189,4 +1278,12 @@ function clerp(c1,c2,al)
  wait(4 / 20)
 	end,
 })
+
+local Button = brazil:CreateButton({
+	Name = "Sniper Fling [EXECUTE PENDULUM HUB FIRST]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/SniperFlingV2/main/360NOSCOPE!.lua"))()
+	end,
+})
+
 print("Made By Insanity#6969")
