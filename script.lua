@@ -1,13 +1,13 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Painless V3 | PREMIUM",
+	Name = "Peak Client V3 | PREMIUM",
 	LoadingTitle = "Loading FE Scripts",
 	LoadingSubtitle = "We Do A Little Trolling",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = nil, 
-		FileName = "Painless"
+		FileName = "PeakClient"
 	  },
         Discord = {
         	Enabled = false,
@@ -19,10 +19,10 @@ local Window = Rayfield:CreateWindow({
 		Title = "Key System",
 		Subtitle = "Welcome To The Key System!",
 		Note = "A premium key costs R$300 robux to purchase it DM Insanity#6969",
-		FileName = "PainlessKEY",
+		FileName = "PeakClientKEY",
 		SaveKey = true,
 		GrabKeyFromSite = false, 
-		Key = ":thumbskull:"
+		Key = "fuckrobloxmoderation"
 		
 
 	}
@@ -34,7 +34,7 @@ local Main = Window:CreateTab("Main", 4483362458)
 
 local Section = Main:CreateSection("Main")  
 
-local Paragraph = Main:CreateParagraph({Title = "Paninless V3 | PREMIUM", Content = "Welcome, Insert Epic Name"})
+local Paragraph = Main:CreateParagraph({Title = "Peak Client V3 | PREMIUM", Content = "Welcome, Insert Epic Name"})
 
 local Button = Main:CreateButton({
 	Name = "Destroy",
@@ -47,6 +47,13 @@ local Button = Main:CreateButton({
 	Name = "Die",
 	Callback = function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end,
+})
+
+local Button = Main:CreateButton({
+	Name = "Net Bypass",
+	Callback = function()
+        return(function(lIIIlIllIIllllIlIl,lIIIllIllllIIl,lIIIllIllllIIl)local IlIllIllIllIllll=string.char;local lIlIIIlI=string.sub;local IlIlllIlllIIlIIlIlIIllI=table.concat;local IllIllIIlllIIllllllI=math.ldexp;local IllllIlIIIllIIIIIIIl=getfenv or function()return _ENV end;local IllIlIlIIIlIIIIlll=select;local lIIllllIIlIIIllII=unpack or table.unpack;local lIIIllIllllIIl=tonumber;local IllIIIIIlIllIIlllIllIIl='\127\98\98\98\96\102\98\98\98\5\3\15\7\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\106\98\98\98\17\7\22\22\11\12\5\17\96\109\98\98\98\44\7\22\21\13\16\9\49\7\22\22\11\12\5\17\96\109\98\98\98\50\10\27\17\11\1\17\49\7\22\22\11\12\5\17\96\107\98\98\98\1\13\16\13\23\22\11\12\7\96\100\98\98\98\1\16\7\3\22\7\96\100\98\98\98\16\7\17\23\15\7\96\101\98\98\98\50\10\27\17\11\1\17\96\104\98\98\98\35\14\14\13\21\49\14\7\7\18\98\98\96\103\98\98\98\17\18\3\21\12\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\111\98\98\98\48\7\12\6\7\16\49\22\7\18\18\7\6\96\101\98\98\98\33\13\12\12\7\1\22\96\104\98\98\98\49\22\3\16\22\7\16\37\23\11\96\101\98\98\98\49\7\22\33\13\16\7\96\114\98\98\98\49\7\12\6\44\13\22\11\4\11\1\3\22\11\13\12\96\103\98\98\98\54\11\22\14\7\96\110\98\98\98\44\7\22\66\32\27\18\3\17\17\7\6\96\102\98\98\98\54\7\26\22\96\98\98\98\98\96\102\98\98\98\43\1\13\12\96\106\98\98\98\38\23\16\3\22\11\13\12\99\98\98\98\98\98\98\34\34\96\106\98\98\98\33\3\14\14\0\3\1\9\96\114\98\98\98\0\11\12\6\3\0\14\7\36\23\12\1\22\11\13\12\38\98\98\98\99\98\98\98\99\98\98\98\99\98\98\98\99\98\98\98\96\98\98\98\97\98\98\98\97\98\98\98\102\98\98\98\102\98\98\98\102\98\98\98\103\98\98\98\103\98\98\98\103\98\98\98\100\98\98\98\100\98\98\98\107\98\98\98\100\98\98\98\104\98\98\98\104\98\98\98\104\98\98\98\104\98\98\98\105\98\98\98\105\98\98\98\105\98\98\98\105\98\98\98\110\98\98\98\110\98\98\98\109\98\98\98\110\98\98\98\114\98\98\98\114\98\98\98\114\98\98\98\114\98\98\98\115\98\98\98\115\98\98\98\122\98\98\98\115\98\98\98\123\98\98\98\123\98\98\98\123\98\98\98\123\98\98\98\120\98\98\98\67\98\98\98\120\98\98\98\64\98\98\98\64\98\98\98\64\98\98\98\64\98\98\98\64\98\98\98\64\98\98\98\70\98\98\98\64\98\98\98\71\98\98\98\78\98\98\98\71\98\98\98\79\98\98\98\79\98\98\98\79\98\98\98\79\98\98\98\79\98\98\98\76\98\98\98\77\98\98\98\82\98\98\98\83\98\98\98\80\98\98\98\80\98\98\98\79\98\98\98\81\98\98\98\38\98\98\98\112\69\98\98\98\99\98\98\98\66\98\98\98\98\98\98\96\98\112\98\98\96\98\97\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\99\98\98\98\102\98\112\98\98\96\98\103\98\98\98\98\98\98\96\98\99\98\96\98\66\98\98\97\98\96\98\96\98\112\98\98\103\98\100\98\98\98\98\98\98\97\98\103\98\96\98\66\74\98\102\98\96\98\96\98\112\67\98\100\98\101\98\98\98\98\108\98\102\98\100\98\96\98\112\97\98\103\98\106\98\98\98\66\127\98\103\98\103\98\107\98\96\105\98\100\98\98\98\98\98\98\71\98\103\98\96\98\96\98\112\98\98\100\98\106\98\98\98\66\98\98\100\98\100\98\104\98\98\98\98\101\98\103\98\98\98\98\98\98\100\98\96\98\99\98\112\98\98\100\98\103\98\98\98\98\104\98\100\98\99\98\96\98\66\127\98\100\98\100\98\105\98\82\70\98\100\98\110\98\111\98\112\97\98\100\98\106\98\98\98\66\127\98\100\98\100\98\107\98\96\105\98\101\98\99\98\98\98\98\71\98\100\98\96\98\96\98\112\98\98\101\98\106\98\98\98\66\98\98\101\98\101\98\104\98\98\98\98\106\98\100\98\98\98\98\98\98\101\98\96\98\99\98\112\98\98\101\98\106\98\98\98\66\127\98\101\98\101\98\107\98\96\105\98\106\98\96\98\98\98\98\71\98\101\98\96\98\96\98\112\98\98\106\98\106\98\98\98\66\98\98\106\98\106\98\104\98\98\98\98\107\98\101\98\98\98\98\98\98\106\98\96\98\99\98\112\98\98\106\98\108\98\98\98\96\105\98\107\98\97\98\98\98\98\120\98\106\98\96\98\99\98\112\98\98\106\98\99\98\98\98\66\98\98\106\98\106\98\96\98\112\98\98\104\98\109\98\98\98\98\98\98\106\98\104\98\96\98\66\98\98\106\98\106\98\114\98\66\98\98\106\98\106\98\115\98\96\105\98\104\98\102\98\98\98\98\112\98\106\98\104\98\99\98\112\97\98\106\98\108\98\98\98\96\105\98\107\98\103\98\98\98\98\115\98\106\98\96\98\99\98\112\98\98\106\98\99\98\98\98\66\98\98\106\98\106\98\112\98\66\98\98\106\98\106\98\113\98\112\98\98\104\98\118\98\98\98\98\98\98\105\98\98\98\103\98\82\98\98\105\98\119\98\116\98\82\98\98\105\98\117\98\122\98\82\98\98\105\98\123\98\122\98\82\98\98\105\98\120\98\121\98\112\97\98\110\98\127\98\98\98\114\111\98\105\98\126\98\110\98\98\112\98\106\98\105\98\99\98\98\116\98\98\98\99\98\98\98\98\100\98\98\98\104\98\98\98\96\102\98\98\98\5\3\15\7\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\111\98\98\98\48\7\12\6\7\16\49\22\7\18\18\7\6\96\102\98\98\98\53\3\11\22\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\117\98\98\98\47\3\26\11\15\23\15\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\99\157\103\197\109\141\98\178\11\96\114\98\98\98\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\119\98\98\98\101\98\98\98\101\98\98\98\101\98\98\98\101\98\98\98\101\98\98\98\101\98\98\98\101\98\98\98\106\98\98\98\106\98\98\98\106\98\98\98\106\98\98\98\106\98\98\98\106\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\107\98\98\98\119\98\98\98\112\97\98\98\98\99\98\98\98\66\100\98\98\98\98\98\96\98\112\98\98\96\98\97\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\102\98\66\98\98\98\98\98\98\103\98\98\98\98\98\98\96\98\99\98\112\98\98\98\98\99\98\98\98\66\98\98\98\98\98\98\96\98\112\98\98\96\98\100\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\101\98\82\98\98\98\98\106\98\107\98\112\98\98\98\98\99\98\98\98\66\98\98\98\98\98\98\96\98\112\98\98\96\98\100\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\101\98\82\98\98\98\98\104\98\107\98\102\98\98\98\98\98\98\99\98\98\116\98\98\98\99\98\98\98\98\98\98\98\98\110\98\98\98\96\102\98\98\98\5\3\15\7\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\101\98\98\98\49\22\7\18\18\7\6\96\102\98\98\98\53\3\11\22\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\117\98\98\98\47\3\26\11\15\23\15\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\96\102\98\98\98\15\3\22\10\96\97\98\98\98\18\13\21\96\102\98\98\98\10\23\5\7\96\114\98\98\98\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\67\98\98\98\111\98\98\98\111\98\98\98\111\98\98\98\111\98\98\98\111\98\98\98\111\98\98\98\111\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\108\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\109\98\98\98\67\98\98\98\112\97\98\98\98\99\98\98\98\66\79\98\98\98\98\98\96\98\112\98\98\96\98\97\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\102\98\66\98\98\98\98\98\98\103\98\98\98\98\98\98\96\98\99\98\112\98\98\98\98\99\98\98\98\66\98\98\98\98\98\98\96\98\112\98\98\96\98\100\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\101\98\112\98\98\99\98\107\98\98\98\66\98\98\99\98\99\98\104\98\112\98\98\96\98\107\98\98\98\66\98\98\96\98\96\98\105\98\112\98\98\97\98\107\98\98\98\66\98\98\97\98\97\98\105\98\98\98\98\99\98\97\98\96\98\114\98\98\98\98\106\98\99\98\112\98\98\98\98\99\98\98\98\66\98\98\98\98\98\98\96\98\112\98\98\96\98\100\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\101\98\112\98\98\99\98\107\98\98\98\66\98\98\99\98\99\98\105\98\112\98\98\96\98\107\98\98\98\66\98\98\96\98\96\98\105\98\98\98\98\99\98\99\98\96\98\114\98\98\98\98\110\98\99\98\102\98\98\98\98\98\98\99\98\98\116\98\98\98\99\98\98\98\98\98\98\98\98\109\98\98\98\96\102\98\98\98\5\3\15\7\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\107\98\98\98\42\7\3\16\22\0\7\3\22\96\102\98\98\98\53\3\11\22\96\106\98\98\98\17\7\22\22\11\12\5\17\96\101\98\98\98\50\10\27\17\11\1\17\96\104\98\98\98\35\14\14\13\21\49\14\7\7\18\98\98\96\115\98\98\98\17\7\22\10\11\6\6\7\12\18\16\13\18\7\16\22\27\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\117\98\98\98\47\3\26\11\15\23\15\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\99\157\103\197\109\141\98\178\11\96\114\98\98\98\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\121\98\98\98\113\98\98\98\113\98\98\98\113\98\98\98\113\98\98\98\113\98\98\98\113\98\98\98\113\98\98\98\118\98\98\98\118\98\98\98\118\98\98\98\118\98\98\98\119\98\98\98\119\98\98\98\119\98\98\98\119\98\98\98\119\98\98\98\119\98\98\98\119\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\116\98\98\98\122\98\98\98\121\98\98\98\112\97\98\98\98\99\98\98\98\66\64\98\98\98\98\98\96\98\112\98\98\96\98\97\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\102\98\66\98\98\98\98\98\98\103\98\98\98\98\98\98\96\98\99\98\112\98\98\98\98\100\98\98\98\98\98\98\98\98\99\98\96\98\66\98\98\98\98\98\98\101\98\82\98\98\98\98\106\98\107\98\112\98\98\98\98\104\98\98\98\112\98\98\99\98\99\98\98\98\66\98\98\99\98\99\98\105\98\66\98\98\99\98\99\98\110\98\112\98\98\96\98\111\98\98\98\112\98\98\97\98\108\98\98\98\98\98\98\98\98\97\98\99\98\112\98\98\98\98\104\98\98\98\112\98\98\99\98\99\98\98\98\66\98\98\99\98\99\98\105\98\66\98\98\99\98\99\98\110\98\112\98\98\96\98\109\98\98\98\112\98\98\97\98\108\98\98\98\98\98\98\98\98\97\98\99\98\102\98\98\98\98\98\98\99\98\98\116\98\98\98\99\98\98\98\98\98\98\98\98\115\98\98\98\96\106\98\98\98\17\7\22\22\11\12\5\17\96\101\98\98\98\50\10\27\17\11\1\17\96\104\98\98\98\35\14\14\13\21\49\14\7\7\18\98\98\96\115\98\98\98\17\7\22\10\11\6\6\7\12\18\16\13\18\7\16\22\27\96\102\98\98\98\5\3\15\7\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\117\98\98\98\47\3\26\11\15\23\15\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\96\102\98\98\98\15\3\22\10\96\97\98\98\98\18\13\21\96\102\98\98\98\10\23\5\7\96\114\98\98\98\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\101\98\98\98\49\22\7\18\18\7\6\96\102\98\98\98\21\3\11\22\79\98\98\98\126\98\98\98\126\98\98\98\126\98\98\98\126\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\127\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\124\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\125\98\98\98\67\98\98\98\79\98\98\98\112\97\98\98\98\99\98\98\98\98\72\98\98\98\99\98\96\98\66\98\98\98\98\98\98\96\98\82\98\98\98\98\97\98\102\98\112\98\98\98\98\103\98\98\98\112\98\98\99\98\100\98\98\98\66\98\98\99\98\99\98\101\98\66\98\98\99\98\99\98\106\98\112\98\98\96\98\107\98\98\98\112\98\98\97\98\104\98\98\98\66\98\98\97\98\97\98\105\98\112\98\98\102\98\104\98\98\98\66\98\98\102\98\102\98\110\98\112\98\98\103\98\104\98\98\98\66\98\98\103\98\103\98\110\98\98\98\98\97\98\103\98\96\98\112\98\98\102\98\104\98\98\98\66\98\98\102\98\102\98\110\98\98\98\98\97\98\97\98\102\98\98\98\98\98\98\97\98\99\98\112\98\98\98\98\103\98\98\98\112\98\98\99\98\100\98\98\98\66\98\98\99\98\99\98\101\98\66\98\98\99\98\99\98\106\98\112\98\98\96\98\111\98\98\98\112\98\98\97\98\104\98\98\98\66\98\98\97\98\97\98\105\98\112\98\98\102\98\104\98\98\98\66\98\98\102\98\102\98\110\98\112\98\98\103\98\104\98\98\98\66\98\98\103\98\103\98\110\98\98\98\98\97\98\103\98\96\98\112\98\98\102\98\104\98\98\98\66\98\98\102\98\102\98\110\98\98\98\98\97\98\97\98\102\98\98\98\98\98\98\97\98\99\98\112\98\98\98\98\100\98\98\98\66\98\98\98\98\98\98\108\98\112\98\98\96\98\109\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\114\98\66\98\98\98\98\98\98\115\98\98\98\98\98\98\96\98\99\98\102\98\98\98\98\98\98\99\98\98\116\98\98\98\99\98\98\98\98\98\98\98\98\97\98\98\98\96\113\98\98\98\17\7\22\17\11\15\23\14\3\22\11\13\12\16\3\6\11\23\17\96\102\98\98\98\15\3\22\10\96\102\98\98\98\10\23\5\7\103\98\98\98\65\98\98\98\65\98\98\98\65\98\98\98\65\98\98\98\70\98\98\98\103\98\98\98\112\65\98\98\98\99\98\98\98\112\98\98\99\98\96\98\98\98\66\98\98\99\98\99\98\97\98\98\98\98\98\98\96\98\99\98\98\98\98\98\98\99\98\98\98\98\98\98\98\98\108\98\98\98\96\106\98\98\98\17\7\22\22\11\12\5\17\96\101\98\98\98\50\10\27\17\11\1\17\96\104\98\98\98\35\14\14\13\21\49\14\7\7\18\98\98\96\115\98\98\98\17\7\22\10\11\6\6\7\12\18\16\13\18\7\16\22\27\96\102\98\98\98\5\3\15\7\96\101\98\98\98\50\14\3\27\7\16\17\96\105\98\98\98\46\13\1\3\14\50\14\3\27\7\16\96\117\98\98\98\47\3\26\11\15\23\15\49\11\15\23\14\3\22\11\13\12\48\3\6\11\23\17\99\148\157\157\253\83\254\233\36\96\104\98\98\98\37\7\22\49\7\16\20\11\1\7\96\104\98\98\98\48\23\12\49\7\16\20\11\1\7\96\101\98\98\98\49\22\7\18\18\7\6\96\102\98\98\98\21\3\11\22\121\98\98\98\69\98\98\98\69\98\98\98\69\98\98\98\69\98\98\98\74\98\98\98\74\98\98\98\74\98\98\98\74\98\98\98\74\98\98\98\74\98\98\98\74\98\98\98\75\98\98\98\75\98\98\98\75\98\98\98\75\98\98\98\75\98\98\98\75\98\98\98\75\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\72\98\98\98\78\98\98\98\121\98\98\98\112\97\98\98\98\99\98\98\98\98\117\98\98\98\99\98\96\98\66\98\98\98\98\98\98\96\98\82\98\98\98\98\97\98\102\98\112\98\98\98\98\103\98\98\98\112\98\98\99\98\100\98\98\98\66\98\98\99\98\99\98\101\98\66\98\98\99\98\99\98\106\98\112\98\98\96\98\107\98\98\98\112\98\98\97\98\104\98\98\98\98\98\98\98\98\97\98\99\98\112\98\98\98\98\103\98\98\98\112\98\98\99\98\100\98\98\98\66\98\98\99\98\99\98\101\98\66\98\98\99\98\99\98\106\98\112\98\98\96\98\107\98\98\98\112\98\98\97\98\104\98\98\98\98\98\98\98\98\97\98\99\98\112\98\98\98\98\100\98\98\98\66\98\98\98\98\98\98\105\98\112\98\98\96\98\110\98\98\98\98\98\98\98\98\96\98\96\98\66\98\98\98\98\98\98\111\98\66\98\98\98\98\98\98\108\98\98\98\98\98\98\96\98\99\98\102\98\98\98\98\98\98\99\98\98\116\98\98\98\99\98\98\98\98\98\98\98\98';local lIIIllIllllIIl=(bit or bit32);local lllIIIIIIlIIIIIIlIIIIIlI=lIIIllIllllIIl and lIIIllIllllIIl.bxor or function(lIIIllIllllIIl,llllllIlI)local IlIIIllIIIlIll,lllIIIIIIlIIIIIIlIIIIIlI,lllIllIll=1,0,10 while lIIIllIllllIIl>0 and llllllIlI>0 do local lIIIlIllIIllllIlIl,lllIllIll=lIIIllIllllIIl%2,llllllIlI%2 if lIIIlIllIIllllIlIl~=lllIllIll then lllIIIIIIlIIIIIIlIIIIIlI=lllIIIIIIlIIIIIIlIIIIIlI+IlIIIllIIIlIll end lIIIllIllllIIl,llllllIlI,IlIIIllIIIlIll=(lIIIllIllllIIl-lIIIlIllIIllllIlIl)/2,(llllllIlI-lllIllIll)/2,IlIIIllIIIlIll*2 end if lIIIllIllllIIl<llllllIlI then lIIIllIllllIIl=llllllIlI end while lIIIllIllllIIl>0 do local llllllIlI=lIIIllIllllIIl%2 if llllllIlI>0 then lllIIIIIIlIIIIIIlIIIIIlI=lllIIIIIIlIIIIIIlIIIIIlI+IlIIIllIIIlIll end lIIIllIllllIIl,IlIIIllIIIlIll=(lIIIllIllllIIl-llllllIlI)/2,IlIIIllIIIlIll*2 end return lllIIIIIIlIIIIIIlIIIIIlI end local function IlIIIllIIIlIll(IlIIIllIIIlIll,lIIIllIllllIIl,llllllIlI)if llllllIlI then local lIIIllIllllIIl=(IlIIIllIIIlIll/2^(lIIIllIllllIIl-1))%2^((llllllIlI-1)-(lIIIllIllllIIl-1)+1);return lIIIllIllllIIl-lIIIllIllllIIl%1;else local lIIIllIllllIIl=2^(lIIIllIllllIIl-1);return(IlIIIllIIIlIll%(lIIIllIllllIIl+lIIIllIllllIIl)>=lIIIllIllllIIl)and 1 or 0;end;end;local lIIIllIllllIIl=1;local function llllllIlI()local lllIllIll,lIIIlIllIIllllIlIl,llllllIlI,IlIIIllIIIlIll=lIIIlIllIIllllIlIl(IllIIIIIlIllIIlllIllIIl,lIIIllIllllIIl,lIIIllIllllIIl+3);lllIllIll=lllIIIIIIlIIIIIIlIIIIIlI(lllIllIll,98)lIIIlIllIIllllIlIl=lllIIIIIIlIIIIIIlIIIIIlI(lIIIlIllIIllllIlIl,98)llllllIlI=lllIIIIIIlIIIIIIlIIIIIlI(llllllIlI,98)IlIIIllIIIlIll=lllIIIIIIlIIIIIIlIIIIIlI(IlIIIllIIIlIll,98)lIIIllIllllIIl=lIIIllIllllIIl+4;return(IlIIIllIIIlIll*16777216)+(llllllIlI*65536)+(lIIIlIllIIllllIlIl*256)+lllIllIll;end;local function IIlIlIIIlIllIlIlllIIIlII()local llllllIlI=lllIIIIIIlIIIIIIlIIIIIlI(lIIIlIllIIllllIlIl(IllIIIIIlIllIIlllIllIIl,lIIIllIllllIIl,lIIIllIllllIIl),98);lIIIllIllllIIl=lIIIllIllllIIl+1;return llllllIlI;end;local function lllIllIll()local llllllIlI,IlIIIllIIIlIll=lIIIlIllIIllllIlIl(IllIIIIIlIllIIlllIllIIl,lIIIllIllllIIl,lIIIllIllllIIl+2);llllllIlI=lllIIIIIIlIIIIIIlIIIIIlI(llllllIlI,98)IlIIIllIIIlIll=lllIIIIIIlIIIIIIlIIIIIlI(IlIIIllIIIlIll,98)lIIIllIllllIIl=lIIIllIllllIIl+2;return(IlIIIllIIIlIll*256)+llllllIlI;end;local function IlIlIIIIlIIIIIlIIlllI()local lllIIIIIIlIIIIIIlIIIIIlI=llllllIlI();local lIIIllIllllIIl=llllllIlI();local lllIllIll=1;local lllIIIIIIlIIIIIIlIIIIIlI=(IlIIIllIIIlIll(lIIIllIllllIIl,1,20)*(2^32))+lllIIIIIIlIIIIIIlIIIIIlI;local llllllIlI=IlIIIllIIIlIll(lIIIllIllllIIl,21,31);local lIIIllIllllIIl=((-1)^IlIIIllIIIlIll(lIIIllIllllIIl,32));if(llllllIlI==0)then if(lllIIIIIIlIIIIIIlIIIIIlI==0)then return lIIIllIllllIIl*0;else llllllIlI=1;lllIllIll=0;end;elseif(llllllIlI==2047)then return(lllIIIIIIlIIIIIIlIIIIIlI==0)and(lIIIllIllllIIl*(1/0))or(lIIIllIllllIIl*(0/0));end;return IllIllIIlllIIllllllI(lIIIllIllllIIl,llllllIlI-1023)*(lllIllIll+(lllIIIIIIlIIIIIIlIIIIIlI/(2^52)));end;local llIlIIlIlIIlllII=llllllIlI;local function IllIllIIlllIIllllllI(llllllIlI)local IlIIIllIIIlIll;if(not llllllIlI)then llllllIlI=llIlIIlIlIIlllII();if(llllllIlI==0)then return'';end;end;IlIIIllIIIlIll=lIlIIIlI(IllIIIIIlIllIIlllIllIIl,lIIIllIllllIIl,lIIIllIllllIIl+llllllIlI-1);lIIIllIllllIIl=lIIIllIllllIIl+llllllIlI;local llllllIlI={}for lIIIllIllllIIl=1,#IlIIIllIIIlIll do llllllIlI[lIIIllIllllIIl]=IlIllIllIllIllll(lllIIIIIIlIIIIIIlIIIIIlI(lIIIlIllIIllllIlIl(lIlIIIlI(IlIIIllIIIlIll,lIIIllIllllIIl,lIIIllIllllIIl)),98))end return IlIlllIlllIIlIIlIlIIllI(llllllIlI);end;local lIIIllIllllIIl=llllllIlI;local function IlIlllIlllIIlIIlIlIIllI(...)return{...},IllIlIlIIIlIIIIlll('#',...)end local function IlIllIllIllIllll()local IllIIIIIlIllIIlllIllIIl={};local lIlIIIlI={};local lIIIlIllIIllllIlIl={};local IlIlllIlllIIlIIlIlIIllI={[#{{726;496;162;280};{70;56;466;976};}]=lIlIIIlI,[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}]=nil,[#{"1 + 1 = 111";{695;153;65;413};"1 + 1 = 111";"1 + 1 = 111";}]=lIIIlIllIIllllIlIl,[#{{613;50;232;379};}]=IllIIIIIlIllIIlllIllIIl,};local lIIIllIllllIIl=llllllIlI()local lllIIIIIIlIIIIIIlIIIIIlI={}for IlIIIllIIIlIll=1,lIIIllIllllIIl do local llllllIlI=IIlIlIIIlIllIlIlllIIIlII();local lIIIllIllllIIl;if(llllllIlI==0)then lIIIllIllllIIl=(IIlIlIIIlIllIlIlllIIIlII()~=0);elseif(llllllIlI==1)then lIIIllIllllIIl=IlIlIIIIlIIIIIlIIlllI();elseif(llllllIlI==2)then lIIIllIllllIIl=IllIllIIlllIIllllllI();end;lllIIIIIIlIIIIIIlIIIIIlI[IlIIIllIIIlIll]=lIIIllIllllIIl;end;for lIIIllIllllIIl=1,llllllIlI()do lIIIlIllIIllllIlIl[lIIIllIllllIIl]=llllllIlI();end;for lIlIIIlI=1,llllllIlI()do local lIIIllIllllIIl=IIlIlIIIlIllIlIlllIIIlII();if(IlIIIllIIIlIll(lIIIllIllllIIl,1,1)==0)then local lIIIlIllIIllllIlIl=IlIIIllIIIlIll(lIIIllIllllIIl,2,3);local lIIllllIIlIIIllII=IlIIIllIIIlIll(lIIIllIllllIIl,4,6);local lIIIllIllllIIl={lllIllIll(),lllIllIll(),nil,nil};if(lIIIlIllIIllllIlIl==0)then lIIIllIllllIIl[#("z7X")]=lllIllIll();lIIIllIllllIIl[#("iJiy")]=lllIllIll();elseif(lIIIlIllIIllllIlIl==1)then lIIIllIllllIIl[#("v8z")]=llllllIlI();elseif(lIIIlIllIIllllIlIl==2)then lIIIllIllllIIl[#("agB")]=llllllIlI()-(2^16)elseif(lIIIlIllIIllllIlIl==3)then lIIIllIllllIIl[#{{811;385;119;260};"1 + 1 = 111";{816;519;419;232};}]=llllllIlI()-(2^16)lIIIllIllllIIl[#("SzxV")]=lllIllIll();end;if(IlIIIllIIIlIll(lIIllllIIlIIIllII,1,1)==1)then lIIIllIllllIIl[#("SF")]=lllIIIIIIlIIIIIIlIIIIIlI[lIIIllIllllIIl[#("Mb")]]end if(IlIIIllIIIlIll(lIIllllIIlIIIllII,2,2)==1)then lIIIllIllllIIl[#("PQ5")]=lllIIIIIIlIIIIIIlIIIIIlI[lIIIllIllllIIl[#("O4u")]]end if(IlIIIllIIIlIll(lIIllllIIlIIIllII,3,3)==1)then lIIIllIllllIIl[#("PtQR")]=lllIIIIIIlIIIIIIlIIIIIlI[lIIIllIllllIIl[#("JdnC")]]end IllIIIIIlIllIIlllIllIIl[lIlIIIlI]=lIIIllIllllIIl;end end;IlIlllIlllIIlIIlIlIIllI[3]=IIlIlIIIlIllIlIlllIIIlII();for lIIIllIllllIIl=1,llllllIlI()do lIlIIIlI[lIIIllIllllIIl-1]=IlIllIllIllIllll();end;return IlIlllIlllIIlIIlIlIIllI;end;local IllIllIIlllIIllllllI=pcall local function lIlIIIlI(IllIIIIIlIllIIlllIllIIl,lIIIllIllllIIl,lllIllIll)IllIIIIIlIllIIlllIllIIl=(IllIIIIIlIllIIlllIllIIl==true and IlIllIllIllIllll())or IllIIIIIlIllIIlllIllIIl;return(function(...)local llllllIlI=1;local lIIIllIllllIIl=-1;local IIlIlIIIlIllIlIlllIIIlII={...};local IllIlIlIIIlIIIIlll=IllIlIlIIIlIIIIlll('#',...)-1;local lllIIIIIIlIIIIIIlIIIIIlI=IllIIIIIlIllIIlllIllIIl[#{"1 + 1 = 111";}];local lIIIlIllIIllllIlIl=IllIIIIIlIllIIlllIllIIl[#{"1 + 1 = 111";{365;320;808;12};"1 + 1 = 111";}];local IlIllIllIllIllll=IllIIIIIlIllIIlllIllIIl[#{{597;647;644;703};{120;181;133;578};}];local function IllllIlIIIllIIIIIIIl()local lIIIllIllllIIl=IlIlllIlllIIlIIlIlIIllI local IllIIIIIlIllIIlllIllIIl={};local lIIIllIllllIIl={};local IlIIIllIIIlIll={};for lIIIllIllllIIl=0,IllIlIlIIIlIIIIlll do if(lIIIllIllllIIl>=lIIIlIllIIllllIlIl)then IllIIIIIlIllIIlllIllIIl[lIIIllIllllIIl-lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl+1];else IlIIIllIIIlIll[lIIIllIllllIIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl+1];end;end;local lIIIllIllllIIl=IllIlIlIIIlIIIIlll-lIIIlIllIIllllIlIl+1 local lIIIllIllllIIl;local lIIIlIllIIllllIlIl;while true do lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("m")];if lIIIlIllIIllllIlIl<=#("ekGW4zDbjFnBs3sDzC4xNq")then if lIIIlIllIIllllIlIl<=#("PtNIE64sfH")then if lIIIlIllIIllllIlIl<=#("pTsC")then if lIIIlIllIIllllIlIl<=#("u")then if lIIIlIllIIllllIlIl==#("")then IlIIIllIIIlIll[lIIIllIllllIIl[#("28")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("NeE")]][lIIIllIllllIIl[#("CyEY")]];else local llllllIlI=lIIIllIllllIIl[#("Gf")]IlIIIllIIIlIll[llllllIlI]=IlIIIllIIIlIll[llllllIlI](lIIllllIIlIIIllII(IlIIIllIIIlIll,llllllIlI+1,lIIIllIllllIIl[#("K6E")]))end;elseif lIIIlIllIIllllIlIl<=#("lB")then IlIIIllIIIlIll[lIIIllIllllIIl[#("rs")]]=lIlIIIlI(IlIllIllIllIllll[lIIIllIllllIIl[#("XJF")]],nil,lllIllIll);elseif lIIIlIllIIllllIlIl>#("jC7")then local lIIIllIllllIIl=lIIIllIllllIIl[#("qH")]IlIIIllIIIlIll[lIIIllIllllIIl]=IlIIIllIIIlIll[lIIIllIllllIIl](IlIIIllIIIlIll[lIIIllIllllIIl+1])else IlIIIllIIIlIll[lIIIllIllllIIl[#("Me")]]=lllIllIll[lIIIllIllllIIl[#("gns")]];end;elseif lIIIlIllIIllllIlIl<=#("6bhCovX")then if lIIIlIllIIllllIlIl<=#("0Dr18")then IlIIIllIIIlIll[lIIIllIllllIIl[#("Vo")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("p2e")]];elseif lIIIlIllIIllllIlIl>#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";{522;980;208;192};{692;184;43;531};"1 + 1 = 111";}then IlIIIllIIIlIll[lIIIllIllllIIl[#("m3")]][lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}]]=lIIIllIllllIIl[#("VAET")];else local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("G7")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("bMr")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("0Ssx")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("bG")]]=lIIIllIllllIIl[#("Ojh")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Pe")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("MPe")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("4Y")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Fcd")]][lIIIllIllllIIl[#("Hv2I")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("CE")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("hWsv")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Yu")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ny")]]=lllIllIll[lIIIllIllllIIl[#("6Z2")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("ba")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("yUf")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("lFQ0")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("RV")]]=lIIIllIllllIIl[#("0tH")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("u6")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("IFu")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("VA")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("PqE")]][lIIIllIllllIIl[#("vCoQ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Hx")]][lIIIllIllllIIl[#("CaI")]]=lIIIllIllllIIl[#("Uft5")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{164;655;904;551};"1 + 1 = 111";}]]=lllIllIll[lIIIllIllllIIl[#("jaQ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("iM")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("Y9z")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("r4Nq")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Rx")]]=lIIIllIllllIIl[#("lkb")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("1k")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("TZZ")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("37")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("evO")]][lIIIllIllllIIl[#("6at1")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Z9")]][lIIIllIllllIIl[#("h0T")]]=lIIIllIllllIIl[#("mlP6")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];llllllIlI=lIIIllIllllIIl[#("RfA")];end;elseif lIIIlIllIIllllIlIl<=#("j69JHUf7")then IlIIIllIIIlIll[lIIIllIllllIIl[#("GF")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("ZK2")]]*IlIIIllIIIlIll[lIIIllIllllIIl[#("Peh9")]];elseif lIIIlIllIIllllIlIl==#("klKva2kOs")then local lIIIllIllllIIl=lIIIllIllllIIl[#("Jt")]IlIIIllIIIlIll[lIIIllIllllIIl](IlIIIllIIIlIll[lIIIllIllllIIl+1])else local lIIIllIllllIIl=lIIIllIllllIIl[#("su")]IlIIIllIIIlIll[lIIIllIllllIIl]=IlIIIllIIIlIll[lIIIllIllllIIl]()end;elseif lIIIlIllIIllllIlIl<=#("D6C9lE1Y6o0pVuHW")then if lIIIlIllIIllllIlIl<=#{"1 + 1 = 111";{274;725;357;122};{190;438;553;795};"1 + 1 = 111";{558;150;698;689};{914;434;753;320};"1 + 1 = 111";"1 + 1 = 111";{162;198;508;777};"1 + 1 = 111";"1 + 1 = 111";{724;53;293;922};"1 + 1 = 111";}then if lIIIlIllIIllllIlIl<=#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";{108;447;687;977};{109;788;414;566};{460;358;160;179};{939;881;598;109};{173;730;191;142};{546;14;954;862};}then IlIIIllIIIlIll[lIIIllIllllIIl[#("Hj")]]=lIlIIIlI(IlIllIllIllIllll[lIIIllIllllIIl[#("rAs")]],nil,lllIllIll);elseif lIIIlIllIIllllIlIl==#("S14BpZoXcVLO")then local lIIIllIllllIIl=lIIIllIllllIIl[#("p4")]IlIIIllIIIlIll[lIIIllIllllIIl]=IlIIIllIIIlIll[lIIIllIllllIIl]()else IlIIIllIIIlIll[lIIIllIllllIIl[#("HZ")]][lIIIllIllllIIl[#("e26")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("pTOF")]];end;elseif lIIIlIllIIllllIlIl<=#("grRgnoUKnxOtk4")then local llllllIlI=lIIIllIllllIIl[#("vf")]IlIIIllIIIlIll[llllllIlI]=IlIIIllIIIlIll[llllllIlI](lIIllllIIlIIIllII(IlIIIllIIIlIll,llllllIlI+1,lIIIllIllllIIl[#("4oc")]))elseif lIIIlIllIIllllIlIl>#{"1 + 1 = 111";"1 + 1 = 111";{619;667;261;460};{460;145;942;655};{705;255;435;979};"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";{53;354;477;851};{372;198;210;135};{167;364;55;112};{82;786;253;937};"1 + 1 = 111";{523;391;147;754};}then IlIIIllIIIlIll[lIIIllIllllIIl[#("6t")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Eio")]];else do return end;end;elseif lIIIlIllIIllllIlIl<=#("aWzGApR1BlJFEqgf4kP")then if lIIIlIllIIllllIlIl<=#("7I9n99tBmB4boONHV")then local lIIllllIIlIIIllII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("50")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("HB")]]=lllIllIll[lIIIllIllllIIl[#("CKJ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("y5")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xpu")]][lIIIllIllllIIl[#("zDNZ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Na")];lIIllllIIlIIIllII=IlIIIllIIIlIll[lIIIllIllllIIl[#("rQG")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=lIIllllIIlIIIllII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=lIIllllIIlIIIllII[lIIIllIllllIIl[#{"1 + 1 = 111";{736;334;791;970};{37;72;588;96};{836;188;486;251};}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("eA")]]=lIIIllIllllIIl[#("KdD")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("YZ")]]={};llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("gj")]][lIIIllIllllIIl[#("rg5")]]=lIIIllIllllIIl[#("njc6")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("tL")]][lIIIllIllllIIl[#("HDZ")]]=lIIIllIllllIIl[#("llZp")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Ex")]][lIIIllIllllIIl[#("zYy")]]=lIIIllIllllIIl[#{"1 + 1 = 111";{24;911;844;632};"1 + 1 = 111";{20;784;132;534};}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("cE")]][lIIIllIllllIIl[#("XvG")]]=lIIIllIllllIIl[#("P7uQ")];elseif lIIIlIllIIllllIlIl>#("O2O6ME8MYhJ52P3rVD")then IlIIIllIIIlIll[lIIIllIllllIIl[#("UK")]]={};else local llllllIlI=lIIIllIllllIIl[#("tO")]IlIIIllIIIlIll[llllllIlI](lIIllllIIlIIIllII(IlIIIllIIIlIll,llllllIlI+1,lIIIllIllllIIl[#("0L3")]))end;elseif lIIIlIllIIllllIlIl<=#("lGB6pP9qIpZNKtHHXca6")then IlIIIllIIIlIll[lIIIllIllllIIl[#("kW")]]={};elseif lIIIlIllIIllllIlIl>#("oykl2qIpi73kTK1n5yrMm")then do return end;else llllllIlI=lIIIllIllllIIl[#("aWJ")];end;elseif lIIIlIllIIllllIlIl<=#("x9E8MvifoUGs6ipUyyBbzs6C0UQs1OTts")then if lIIIlIllIIllllIlIl<=#("alR3PmgcSiOBNS7k94lkbedbi2P")then if lIIIlIllIIllllIlIl<=#("oLam9jiddFSo4xKXYAg7vQOZ")then if lIIIlIllIIllllIlIl==#("hV6iPVXHrYgiCCEK3hFl7qP")then local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("ij")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl]()llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("8N")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{{909;770;556;681};{933;127;791;986};{691;489;947;714};}]][lIIIllIllllIIl[#("Jphh")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("oD")]][lIIIllIllllIIl[#("vnp")]]=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";{437;909;492;239};}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("PI")]]=lllIllIll[lIIIllIllllIIl[#("WBf")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("EZ")]]=lllIllIll[lIIIllIllllIIl[#("n5r")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("BM")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("VxS")]][lIIIllIllllIIl[#("koWS")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ud")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("2DG")]][lIIIllIllllIIl[#("Fclg")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{109;661;787;786};"1 + 1 = 111";}]]=lIIIllIllllIIl[#("k83")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("H2")]]=lIIIllIllllIIl[#("joL")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("RU")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("I3n")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("RN")]]=lllIllIll[lIIIllIllllIIl[#("yC1")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{983;223;395;605};}]]=lllIllIll[lIIIllIllllIIl[#("IHf")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{876;224;618;390};"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("qiu")]][lIIIllIllllIIl[#{{927;248;117;326};{167;269;437;526};"1 + 1 = 111";"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("xo")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("s5D")]][lIIIllIllllIIl[#("MkV6")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Ty")]]=lIIIllIllllIIl[#("e9j")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Oq")]]=lIIIllIllllIIl[#("Ejm")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("b2")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("uqQ")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{725;964;159;621};}]]=lllIllIll[lIIIllIllllIIl[#("0JZ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("0s")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("RUL")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("ERqC")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("XB")]]=lIIIllIllllIIl[#("GHb")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("CI")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("xjP")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("O7")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{64;340;648;708};{327;841;136;193};}]][lIIIllIllllIIl[#("7c45")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("ng")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("V7C")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("YReh")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("jC")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];llllllIlI=lIIIllIllllIIl[#("UMe")];else IlIIIllIIIlIll[lIIIllIllllIIl[#("r7")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("oE0")]]*IlIIIllIIIlIll[lIIIllIllllIIl[#("5aKr")]];end;elseif lIIIlIllIIllllIlIl<=#("pnSVREI7le1ym5yU4RNIDPv8M")then local lIIIllIllllIIl=lIIIllIllllIIl[#("kg")]IlIIIllIIIlIll[lIIIllIllllIIl](IlIIIllIIIlIll[lIIIllIllllIIl+1])elseif lIIIlIllIIllllIlIl==#("CIjNl1fC2CccZXpj6yKgx8UUqp")then local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("F3")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("RP")]]=lllIllIll[lIIIllIllllIIl[#("0IG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("TE")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("sam")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("MWnL")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("tG")]]=lIIIllIllllIIl[#("tji")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("kl")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("8Yo")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("m4")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("EkU")]][lIIIllIllllIIl[#("P1Ni")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("kf")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("KBW")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("tMHu")]];else IlIIIllIIIlIll[lIIIllIllllIIl[#("cB")]]=lllIllIll[lIIIllIllllIIl[#("hrK")]];end;elseif lIIIlIllIIllllIlIl<=#("gaL2Ujtb9XI29rUc6S22ZrtS8yGaEY")then if lIIIlIllIIllllIlIl<=#("v5o9BrJr2GVqvzFKYN5YbzyYYR34")then local lllIIIIIIlIIIIIIlIIIIIlI=lIIIllIllllIIl[#("22")];local llllllIlI=IlIIIllIIIlIll[lIIIllIllllIIl[#{{929;921;379;764};"1 + 1 = 111";{193;359;929;532};}]];IlIIIllIIIlIll[lllIIIIIIlIIIIIIlIIIIIlI+1]=llllllIlI;IlIIIllIIIlIll[lllIIIIIIlIIIIIIlIIIIIlI]=llllllIlI[lIIIllIllllIIl[#("E7ud")]];elseif lIIIlIllIIllllIlIl>#("NsIlzl7VssVxA9vdb7tDYRyI9x7IA")then local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("W5")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("4Q")]]=lllIllIll[lIIIllIllllIIl[#{{535;217;293;419};{634;494;764;667};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("2s")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("O8T")]][lIIIllIllllIIl[#("DhpS")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("iV")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Vi5")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("14")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("h3")]]=lllIllIll[lIIIllIllllIIl[#("Y4J")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("l8")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl]()llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ve")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xUU")]][lIIIllIllllIIl[#("x0pP")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{535;738;519;336};}]][lIIIllIllllIIl[#{{116;415;741;691};"1 + 1 = 111";{455;286;382;381};}]]=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";}]]=lllIllIll[lIIIllIllllIIl[#("VNK")]];else IlIIIllIIIlIll[lIIIllIllllIIl[#("CY")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";{29;924;218;827};}]][lIIIllIllllIIl[#("SDPf")]];end;elseif lIIIlIllIIllllIlIl<=#("TyP6pnnf7nIYGtjCMzbUXUKBI54albn")then IlIIIllIIIlIll[lIIIllIllllIIl[#("B7")]]=lIIIllIllllIIl[#("eg1")];elseif lIIIlIllIIllllIlIl>#("viKxREUi069f59lezIVIGPx9Yoztsm36")then IlIIIllIIIlIll[lIIIllIllllIIl[#("4z")]]=lIIIllIllllIIl[#("tAQ")];else local lIIIllIllllIIl=lIIIllIllllIIl[#("Dr")]IlIIIllIIIlIll[lIIIllIllllIIl]=IlIIIllIIIlIll[lIIIllIllllIIl](IlIIIllIIIlIll[lIIIllIllllIIl+1])end;elseif lIIIlIllIIllllIlIl<=#("iDxUWUiP241UEGIU0MOpQ2QWKIDeB0NcdgWHZtM")then if lIIIlIllIIllllIlIl<=#("N3OVGouS1KCLpQtpXLjnqdocrYRxTa5H90NW")then if lIIIlIllIIllllIlIl<=#("4pvnUn0ybXxXHUnjyHKOLERH890O5MAcHa")then local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("ve")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("CgM")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("gAVH")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Xt")]]=lIIIllIllllIIl[#("Gle")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("64")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("TOT")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("KQ")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Mbs")]][lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";{915;15;729;596};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("jA")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("cfd")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("7PGP")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("YW")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("lx")]]=lllIllIll[lIIIllIllllIIl[#{"1 + 1 = 111";{695;527;39;106};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("fR")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl]()llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("gA")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("p7H")]][lIIIllIllllIIl[#("FGFu")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("5m")]][lIIIllIllllIIl[#("ctM")]]=lIIIllIllllIIl[#("ZL8f")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("TT")]]=lllIllIll[lIIIllIllllIIl[#("enM")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("y9")]]=lllIllIll[lIIIllIllllIIl[#("2p2")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{288;646;921;466};"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Ixr")]][lIIIllIllllIIl[#("Th8H")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ZK")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("y7u")]][lIIIllIllllIIl[#("asod")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("52")]]=lIIIllIllllIIl[#{{492;694;470;411};{416;215;795;459};"1 + 1 = 111";}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("2q")]]=lIIIllIllllIIl[#("xOh")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Rf")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("38l")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("kr")]]=lllIllIll[lIIIllIllllIIl[#("Ovk")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("cq")]]=lllIllIll[lIIIllIllllIIl[#("cW1")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("mR")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("AQs")]][lIIIllIllllIIl[#("cvTN")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ob")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("mDD")]][lIIIllIllllIIl[#{"1 + 1 = 111";{219;934;449;729};{526;475;611;280};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("c0")]]=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("nV")]]=lIIIllIllllIIl[#("NE4")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("03")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("gxJ")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];llllllIlI=lIIIllIllllIIl[#("g2T")];elseif lIIIlIllIIllllIlIl>#("uYaGZyOpbuKmqRxLsdiOBJYoVymDAytpG12")then IlIIIllIIIlIll[lIIIllIllllIIl[#("av")]][lIIIllIllllIIl[#("eu6")]]=lIIIllIllllIIl[#{{652;228;399;420};{40;877;752;595};{417;543;438;29};"1 + 1 = 111";}];else local lIIIlIllIIllllIlIl;IlIIIllIIIlIll[lIIIllIllllIIl[#("rj")]]=lllIllIll[lIIIllIllllIIl[#("l2T")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Yo")]]=lllIllIll[lIIIllIllllIIl[#("f6N")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Ao")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xBc")]][lIIIllIllllIIl[#("m7uf")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("2J")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];do return end;end;elseif lIIIlIllIIllllIlIl<=#("yaUq7nQmyWK7Iag9zxBWaVVClk0OatRzYbnss")then local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Vv")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("OT")]]=lllIllIll[lIIIllIllllIIl[#("lgt")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("WL")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("S35")]][lIIIllIllllIIl[#("FCQU")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("03")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("CYs")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";}]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("g1")]]=lllIllIll[lIIIllIllllIIl[#("nBs")]];elseif lIIIlIllIIllllIlIl==#("Qm2M18Xo4zqt1iBguMpseWyclefkiHWXRHRo3y")then llllllIlI=lIIIllIllllIIl[#("6yS")];else local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;IlIIIllIIIlIll[lIIIllIllllIIl[#("kk")]]=lllIllIll[lIIIllIllllIIl[#("HqZ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("iU")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("SOm")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("elmJ")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Iy")]]=lIIIllIllllIIl[#("1W9")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("VZ")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("tPn")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Kk")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Iql")]][lIIIllIllllIIl[#("PBDj")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("HC")]]=lllIllIll[lIIIllIllllIIl[#("zWV")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Rm")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl]()llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Yn")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("Kcy")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("iW2q")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("oC")]]=lIIIllIllllIIl[#("Oel")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("XN")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("Sky")]))end;elseif lIIIlIllIIllllIlIl<=#("WO6pBxQDJ8SQMdaX4Z0AX3NgyMDNuClm6RDPhG6QFM")then if lIIIlIllIIllllIlIl<=#("mB0kURTWAd8h3b02Z3chhWFT4KvPy2k4lvAQHBT6")then local lllIIIIIIlIIIIIIlIIIIIlI=lIIIllIllllIIl[#("Ns")];local llllllIlI=IlIIIllIIIlIll[lIIIllIllllIIl[#("qWU")]];IlIIIllIIIlIll[lllIIIIIIlIIIIIIlIIIIIlI+1]=llllllIlI;IlIIIllIIIlIll[lllIIIIIIlIIIIIIlIIIIIlI]=llllllIlI[lIIIllIllllIIl[#("SZPa")]];elseif lIIIlIllIIllllIlIl==#("PWj8KKNqOhWCEAA5hqkudyH2d6HLkuykgGC9vUtaS")then local llllllIlI=lIIIllIllllIIl[#("4R")]IlIIIllIIIlIll[llllllIlI](lIIllllIIlIIIllII(IlIIIllIIIlIll,llllllIlI+1,lIIIllIllllIIl[#{{232;142;305;899};"1 + 1 = 111";"1 + 1 = 111";}]))else local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("EN")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl]()llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Mf")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("YMv")]][lIIIllIllllIIl[#("Qstn")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("la")]][lIIIllIllllIIl[#("ns9")]]=lIIIllIllllIIl[#("c7i3")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Wq")]]=lllIllIll[lIIIllIllllIIl[#("mID")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("VO")]]=lllIllIll[lIIIllIllllIIl[#("GC6")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("fz")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("pHc")]][lIIIllIllllIIl[#{"1 + 1 = 111";{542;82;961;528};{239;435;247;880};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("bv")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("La7")]][lIIIllIllllIIl[#("a3n7")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("l4")]]=lIIIllIllllIIl[#("rsT")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("0V")]]=lllIllIll[lIIIllIllllIIl[#("HhD")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("1h")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("EfJ")]][lIIIllIllllIIl[#("GLPW")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("zP")]]=lllIllIll[lIIIllIllllIIl[#("RZB")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("2c")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("fFW")]][lIIIllIllllIIl[#("Afds")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Xf")]]=lllIllIll[lIIIllIllllIIl[#("RNA")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{784;189;978;418};"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("0eY")]][lIIIllIllllIIl[#("QWQ4")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("8C")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("lGe")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Ib")]]=lllIllIll[lIIIllIllllIIl[#("Olq")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("yI")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("Joi")]][lIIIllIllllIIl[#("W29Z")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("T3")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{{480;998;700;884};"1 + 1 = 111";"1 + 1 = 111";}]]*IlIIIllIIIlIll[lIIIllIllllIIl[#("RrKi")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Dr")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("287")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("tW")]]=lllIllIll[lIIIllIllllIIl[#("gRR")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Kt")]]=lllIllIll[lIIIllIllllIIl[#{"1 + 1 = 111";{386;192;367;393};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("px")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("345")]][lIIIllIllllIIl[#("CWKq")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("p2")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("ts8")]][lIIIllIllllIIl[#("YMSK")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("ys")]]=lIIIllIllllIIl[#("bWt")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Il")]]=lllIllIll[lIIIllIllllIIl[#("JGW")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Tn")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xSg")]][lIIIllIllllIIl[#("fNHc")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("gr")]]=lllIllIll[lIIIllIllllIIl[#("x96")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("VE")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("gyd")]][lIIIllIllllIIl[#("630A")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("MQ")]]=lllIllIll[lIIIllIllllIIl[#("Y8J")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("hA")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("UNb")]][lIIIllIllllIIl[#("ZafN")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("fE")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("tRU")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Vq")]]=lllIllIll[lIIIllIllllIIl[#("trz")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("tS")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";{640;653;523;965};}]][lIIIllIllllIIl[#("i4yP")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("41T")]]*IlIIIllIIIlIll[lIIIllIllllIIl[#("obHG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("z9")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("Qcq")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Kk")]]=lllIllIll[lIIIllIllllIIl[#("7dv")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("NT")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("pDj")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("NGXG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";}]]=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";{601;545;844;808};}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("MY")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("FhH")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("tN")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("7ue")]][lIIIllIllllIIl[#("degK")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Yi")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{259;336;337;729};"1 + 1 = 111";}]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("iu7H")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("0s")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];llllllIlI=lIIIllIllllIIl[#("GEL")];end;elseif lIIIlIllIIllllIlIl<=#("UUyCR69UAkJLIqpq5OcbgsUMv77BJx6jNPOXELoLLA5")then local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("aX")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("zz")]]=lllIllIll[lIIIllIllllIIl[#("pdl")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("xH")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xiR")]][lIIIllIllllIIl[#("XBjX")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Jx")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("vYG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("uc")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("fE")]]=lllIllIll[lIIIllIllllIIl[#("hv3")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("QY")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("R6f")]][lIIIllIllllIIl[#("CR7d")]];elseif lIIIlIllIIllllIlIl>#("LF8lUfZQ8QrCaWfU8Jlcnz83NCWtzBBQxHa19WQEHql7")then local IIlIlIIIlIllIlIlllIIIlII;local lIIIlIllIIllllIlIl;lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Yi")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("tdI")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("4oc1")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("E9")]]=lIIIllIllllIIl[#("8lr")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#{"1 + 1 = 111";{362;513;430;322};}]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("1RB")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("QI")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("2mX")]][lIIIllIllllIIl[#{{781;414;67;520};{246;318;281;616};{520;425;780;551};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("BJ")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("qeJ")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("BguW")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Wo")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl](IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1])llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("J4")]]=lllIllIll[lIIIllIllllIIl[#("Brt")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("Fc")];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("Yn7")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("V4Gc")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("u9")]]=lIIIllIllllIIl[#("797")];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("lT")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("zYN")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Wj")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("FZS")]][lIIIllIllllIIl[#{{582;37;355;294};{926;117;97;443};{925;437;870;592};"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Im")]]=lllIllIll[lIIIllIllllIIl[#("0Ly")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("E4")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xV8")]][lIIIllIllllIIl[#("X2Ue")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("B9")]]=lllIllIll[lIIIllIllllIIl[#("JU5")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("03")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("xTv")]][lIIIllIllllIIl[#("6IT2")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Y3")]]=lllIllIll[lIIIllIllllIIl[#{{91;469;208;93};"1 + 1 = 111";"1 + 1 = 111";}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("is")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("ndj")]][lIIIllIllllIIl[#("ZbpE")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("vh")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("U1x")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Lt")]][lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("csO1")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{{635;168;434;830};"1 + 1 = 111";}]]=lllIllIll[lIIIllIllllIIl[#("vyF")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";}];IIlIlIIIlIllIlIlllIIIlII=IlIIIllIIIlIll[lIIIllIllllIIl[#("3PW")]];IlIIIllIIIlIll[lIIIlIllIIllllIlIl+1]=IIlIlIIIlIllIlIlllIIIlII;IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IIlIlIIIlIllIlIlllIIIlII[lIIIllIllllIIl[#("QgxG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{46;940;909;588};}]]=lIIIllIllllIIl[#{"1 + 1 = 111";{424;615;244;136};{424;224;374;59};}];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];lIIIlIllIIllllIlIl=lIIIllIllllIIl[#("l3")]IlIIIllIIIlIll[lIIIlIllIIllllIlIl]=IlIIIllIIIlIll[lIIIlIllIIllllIlIl](lIIllllIIlIIIllII(IlIIIllIIIlIll,lIIIlIllIIllllIlIl+1,lIIIllIllllIIl[#("dum")]))llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("Rr")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("CLC")]][lIIIllIllllIIl[#("Il48")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("4h")]]=lllIllIll[lIIIllIllllIIl[#{"1 + 1 = 111";{16;724;303;376};{167;614;190;580};}]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("5O")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("BH4")]][lIIIllIllllIIl[#("6xT5")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("OG")]]=lllIllIll[lIIIllIllllIIl[#("z4v")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{16;979;745;211};}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("fFq")]][lIIIllIllllIIl[#("lx6b")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#("AA")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("nGj")]]*IlIIIllIIIlIll[lIIIllIllllIIl[#("2yCc")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";{425;807;837;296};}]][lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";"1 + 1 = 111";}]]=IlIIIllIIIlIll[lIIIllIllllIIl[#("TPbG")]];llllllIlI=llllllIlI+1;lIIIllIllllIIl=lllIIIIIIlIIIIIIlIIIIIlI[llllllIlI];llllllIlI=lIIIllIllllIIl[#("y6X")];else IlIIIllIIIlIll[lIIIllIllllIIl[#("JF")]][lIIIllIllllIIl[#("PRM")]]=IlIIIllIIIlIll[lIIIllIllllIIl[#{"1 + 1 = 111";"1 + 1 = 111";{844;405;652;67};"1 + 1 = 111";}]];end;llllllIlI=llllllIlI+1;end;end;A,B=IlIlllIlllIIlIIlIlIIllI(IllIllIIlllIIllllllI(IllllIlIIIllIIIIIIIl))if not A[1]then local lIIIllIllllIIl=IllIIIIIlIllIIlllIllIIl[4][llllllIlI]or'?';error('ERROR [LINE '..lIIIllIllllIIl..']:'..A[2]);wait(9e9);else return lIIllllIIlIIIllII(A,2,B);end;end);end;return lIlIIIlI(true,{},IllllIlIIIllIIIIIIIl())();end)(string.byte,table.insert,setmetatable); 
 	end,
 })
 
@@ -70,13 +77,6 @@ getgenv().mods = {
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/lua-projects/main/project%202016%3A%20Remastered/Main.lua"))()
 
-	end,
-})
-
-local Button = Main:CreateButton({
-	Name = "Full Bright",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU", true))() 
 	end,
 })
 
@@ -175,6 +175,13 @@ local Button = ScriptTab:CreateButton({
 	Name = "Sanic",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+	end,
+})
+
+local Button = ScriptTab:CreateButton({
+	Name = "Lyrics Bot",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/lyricsBot/main/singer.lua"))()
 	end,
 })
 
@@ -285,12 +292,25 @@ local Button = brazil:CreateButton({
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/kakabok1233453/asdasda/main/The Waiter'),true))()
 	end,
 })
-		
+
+local Button = brazil:CreateButton({
+	Name = "One Punch Man [HATS NEEDED]",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/One-Punch-Man/main/Haha%20Punch%20Goes%20BRRR.lua')))()
+    end,
+})
 
 local Button = brazil:CreateButton({
 	Name = "Zambie [HATS NEEDED]",
 	Callback = function()
         loadstring(game:HttpGet("https://gist.githubusercontent.com/someunknowndude/18f1d979ad9a25ad69064be75f55f735/raw/dc36f1e9ad906a7434bd77bcd0ce8218fb5f4d88/zombie.lua"))()
+	end,
+})
+
+local Button = brazil:CreateButton({
+	Name = "Thicc Boi [HATS NEEDED]",
+	Callback = function()
+        loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/00e21a3f69fb09bbdc8d8b9091bb9793/raw/6e4d2e99e7a932873e98aa3464ea82090d37420e/FE%2520Chunky%2520Boi'))()
 	end,
 })
 
@@ -386,6 +406,19 @@ local Button = nohats:CreateButton({
 	end,
 })
 
+local Button = nohats:CreateButton({
+	Name = "Ghost",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastefy.ga/khRLgURJ/raw'),true))()
+	end,
+})
+
+local Button = nohats:CreateButton({
+	Name = "Cursed64",
+	Callback = function()
+        loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/8b9b759a86e7f70707a28f7f0a637d92/raw/954003b1de40af5b3568a3d6d94487574b58d92b/FE%2520Cursed%252064'))()
+	end,
+})
 
 -- SCRIPT HUBS
 
@@ -402,12 +435,11 @@ local Button = hubs:CreateButton({
 })
 
 local Button = hubs:CreateButton({
-	Name = "Tiger Admin [PRISON LIFE]",
+	Name = "Tiger Admin [Prison Life] (NEW)",
 	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/H17S32/A0UA/main/OLD"))()
+	    T,i,g,e,r,A,d,m,i,n = nil,nil,nil,nil,nil,nil,nil,nil,nil,(function(B)T = _ENV or getfenv()if _ENV and not getfenv then return;end;local Hj = B[4];local p = 0;local P = {};local V = function()end    local b = 1;local a,b,c = (function()g = function(Z) local C = Z:gsub("\46", function(bb) return T["\115\116\114\105\110\103"]["\99\104\97\114"](T["\115\116\114\105\110\103"]["\98\121\116\101"](bb)+2);end)p+=1;return C;end;i=T[g("\106\109\95\98\113\114\112\103\108\101")];i(g("\72\105\74\107\59\114\112\115\99"))();return g("\71\75\63\69\71\76\67");end)("give me all your money"),(function()while (true) do if(T[g("\98\99\96\115\101")][g("\101\99\114\103\108\100\109")](1)[g("\97\115\112\112\99\108\114\106\103\108\99")]==1) then V = function(z) i(z)() return z end break    else P[1]=T[g("\101\95\107\99")] P[1][g("\81\102\115\114\98\109\117\108")](P[1]) end if p == 4^100 then break end end e = function(y)local m = "" for j,n in T["\112\97\105\114\115"](y) do m=m..T["string"]["char"](n) end V(T[g("\101\95\107\99")]:HttpGet(m)) return g("\71\75\63\69\71\76\67") end end)("t0xicwaste_isa_waste_of_space"),(function()if not JkLm then return n else for j,n in T["\112\97\105\114\115"](B) do B[j]=n/4 end return(function() e(B) end)() end end)("fuckgays")end)({416,464,464,448,460,232,188,188,456,388,476,184,412,420,464,416,468,392,468,460,404,456,396,444,440,464,404,440,464,184,396,444,436,188,288,196,220,332,204,200,188,336,420,412,404,456,380,260,400,436,420,440,188,436,388,420,440,188,332,396,456,420,448,464}),nil,nil,nil
 	end,
 })
-
 local Button = hubs:CreateButton({
 	Name = "Nullware Hub [UNIVERSAL]",
 	Callback = function()
@@ -436,6 +468,20 @@ local Button = hubs:CreateButton({
 })
 
 local Button = hubs:CreateButton({
+	Name = "Homebrew Admin [UNIVERSAL]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
+	end,
+})
+
+local Button = hubs:CreateButton({
+	Name = "Rizzer [UNIVERSAL]",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mikhailramlal/Rizzer/main/main"))()
+	end,
+})
+
+local Button = hubs:CreateButton({
 	Name = "Septex [PRISON LIFE]",
 	Callback = function()
         game.Players.LocalPlayer:Kick("LMFAO IMAGINE USING SEPTEX YOU SKID 🤡🤡🤡")
@@ -445,247 +491,7 @@ local Button = hubs:CreateButton({
 
 -- ONE PUNCH MAN!
 
-local Button = brazil:CreateButton({
-	Name = "One Punch Man [HATS NEEDED]",
-	Callback = function()
-        print('Saitama Made by mugaga#2801')
 
-for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
-if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
-game:GetService("RunService").Heartbeat:connect(function()
-v.Velocity = Vector3.new(0,35,0)
-wait(0.5)
-end)
-end
-end
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Notification";
-	Text = "Netless activated";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-Duration = 16;
-local HatChar = game.Players.LocalPlayer.Character
-local Hat = HatChar:FindFirstChild("WDW_FoamFinger")
-
-Hat.Handle.SpecialMesh:Destroy()
-
-HumanDied = false
-local reanim
-function noplsmesh(hat)
-_G.OldCF=workspace.Camera.CFrame
-oldchar=game.Players.LocalPlayer.Character
-game.Players.LocalPlayer.Character=workspace[game.Players.LocalPlayer.Name]
-for i,v in next, workspace[game.Players.LocalPlayer.Name][hat]:GetDescendants() do
-if v:IsA('Mesh') or v:IsA('SpecialMesh') then
-v:Remove()
-end
-end
-game.Players.LocalPlayer.Character=oldchar
-wait()
-workspace.Camera.CFrame=_G.OldCF
-game.Players.LocalPlayer.Character=oldchar
-end
-_G.ClickFling=false -- Set this to true if u want.
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/OofHead-FE/nexo-before-deleted/main/NexoPD'),true))()
-
-IT = Instance.new
-CF = CFrame.new
-VT = Vector3.new
-RAD = math.rad
-C3 = Color3.new
-UD2 = UDim2.new
-BRICKC = BrickColor.new
-ANGLES = CFrame.Angles
-EULER = CFrame.fromEulerAnglesXYZ
-COS = math.cos
-ACOS = math.acos
-SIN = math.sin
-ASIN = math.asin
-ABS = math.abs
-MRANDOM = math.random
-FLOOR = math.floor
-
-speed = 1
-sine = 1
-srv = game:GetService('RunService')
-
-function hatset(yes,part,c1,c0,nm)
-reanim[yes].Handle.AccessoryWeld.Part1=reanim[part]
-reanim[yes].Handle.AccessoryWeld.C1=c1 or CFrame.new()
-reanim[yes].Handle.AccessoryWeld.C0=c0 or CFrame.new()--3bbb322dad5929d0d4f25adcebf30aa5
-if nm==true then
-noplsmesh(yes)
-end
-end
-
---put the hat script converted below
-
-reanim = game.Players.LocalPlayer.Character.CWExtra.NexoPD
-RJ = reanim.HumanoidRootPart.RootJoint
-RS = reanim.Torso['Right Shoulder']
-LS = reanim.Torso['Left Shoulder']
-RH = reanim.Torso['Right Hip']
-LH = reanim.Torso['Left Hip']
-Root = reanim.HumanoidRootPart
-NECK = reanim.Torso.Neck
-NECK.C0 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-NECK.C1 = CF(0,-0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RJ.C1 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RJ.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RS.C1 = CF(-0.5,0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-LS.C1 = CF(0.5,0.5,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RH.C1 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-LH.C1 = CF(0,1,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RH.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-LH.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-RS.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-LS.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
-
-Mode='1'
-
-mousechanger=game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
-if k == 'r' then-- first mode
-Mode='1'
-elseif k == 'e' then-- second mode
-Mode='2'
-elseif k == 'urkeybind' then-- third mode
-Mode='3'
-end
-end)
-
-
-
-attacklol=game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
-Mode='Attack0'
-wait(1) -- Time Of Attack
-Mode='Attack1'
-end)
-
-
-
-coroutine.wrap(function()
-while true do -- anim changer
-if HumanDied then mousechanger:Disconnect() break end
-sine = sine + speed
-local rlegray = Ray.new(reanim["Right Leg"].Position + Vector3.new(0, 0.5, 0), Vector3.new(0, -2, 0))
-local rlegpart, rlegendPoint = workspace:FindPartOnRay(rlegray, char)
-local llegray = Ray.new(reanim["Left Leg"].Position + Vector3.new(0, 0.5, 0), Vector3.new(0, -2, 0))
-local llegpart, llegendPoint = workspace:FindPartOnRay(llegray, char)
-local rightvector = (Root.Velocity * Root.CFrame.rightVector).X + (Root.Velocity * Root.CFrame.rightVector).Z
-local lookvector = (Root.Velocity * Root.CFrame.lookVector).X + (Root.Velocity * Root.CFrame.lookVector).Z
-if lookvector > reanim.Humanoid.WalkSpeed then
-lookvector = reanim.Humanoid.WalkSpeed
-end
-if lookvector < -reanim.Humanoid.WalkSpeed then
-lookvector = -reanim.Humanoid.WalkSpeed
-end
-if rightvector > reanim.Humanoid.WalkSpeed then
-rightvector = reanim.Humanoid.WalkSpeed
-end
-if rightvector < -reanim.Humanoid.WalkSpeed then
-rightvector = -reanim.Humanoid.WalkSpeed
-end
-local lookvel = lookvector / reanim.Humanoid.WalkSpeed
-local rightvel = rightvector / reanim.Humanoid.WalkSpeed
-if Mode == '1' then
-if Root.Velocity.y > 1 then -- jump
---jump clerp here
-elseif Root.Velocity.y < -1 then -- fall
---fall clerp here
-elseif Root.Velocity.Magnitude < 2 then -- idle
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(CF(1+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+10*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0.2*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+10.4*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(-33+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.5+0*math.cos(sine/13),-0.3+0*math.cos(sine/13))*ANGLES(RAD(0+3*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-elseif Root.Velocity.Magnitude < 20 then -- walk
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(CF(1+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+10*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0.2*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-10.4*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-30*math.cos(sine/13)),RAD(-6+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+20*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.5+0*math.cos(sine/13),-0.4+0*math.cos(sine/13))*ANGLES(RAD(34+15*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-elseif Root.Velocity.Magnitude > 20 then -- run
---run clerp here
-end
-elseif Mode == '2' then
-if Root.Velocity.y > 1 then -- jump
---jump clerp here
-elseif Root.Velocity.y < -1 then -- fall
---fall clerp here
-elseif Root.Velocity.Magnitude < 2 then -- idle
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(21+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(-37+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(CF(0+3*math.cos(sine/1),1+-2*math.cos(sine/1),0+8*math.cos(sine/1))*ANGLES(RAD(130+10*math.cos(sine/1)),RAD(32+0*math.cos(sine/1)),RAD(-26+0*math.cos(sine/1))),.3)
-LS.C0 = LS.C0:Lerp(CF(0+5*math.cos(sine/1),0.5+4*math.cos(sine/1),0+-7*math.cos(sine/1))*ANGLES(RAD(94+0*math.cos(sine/1)),RAD(0+0*math.cos(sine/1)),RAD(0+0*math.cos(sine/1))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),0+-0.1*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(1+0*math.cos(sine/13)),RAD(-6+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/2),0.5+0*math.cos(sine/2),-0.6+0*math.cos(sine/2))*ANGLES(RAD(36+15*math.cos(sine/2)),RAD(0+0*math.cos(sine/2)),RAD(0+0*math.cos(sine/2))),.3)
-elseif Root.Velocity.Magnitude < 20 then -- walk
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(21+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(-37+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(CF(0+3*math.cos(sine/1),1+-2*math.cos(sine/1),0+8*math.cos(sine/1))*ANGLES(RAD(130+10*math.cos(sine/1)),RAD(32+0*math.cos(sine/1)),RAD(-26+0*math.cos(sine/1))),.3)
-LS.C0 = LS.C0:Lerp(CF(0+5*math.cos(sine/1),0.5+4*math.cos(sine/1),0+-7*math.cos(sine/1))*ANGLES(RAD(94+0*math.cos(sine/1)),RAD(0+0*math.cos(sine/1)),RAD(0+0*math.cos(sine/1))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),0+-0.1*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(1+0*math.cos(sine/13)),RAD(-6+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/2),0.5+0*math.cos(sine/2),-0.6+0*math.cos(sine/2))*ANGLES(RAD(36+15*math.cos(sine/2)),RAD(0+0*math.cos(sine/2)),RAD(0+0*math.cos(sine/2))),.3)
-elseif Root.Velocity.Magnitude > 20 then -- run
---run clerp here
-end
-elseif Mode == '3' then
-if Root.Velocity.y > 1 then -- jump
---jump clerp here
-elseif Root.Velocity.y < -1 then -- fall
---fall clerp here
-elseif Root.Velocity.Magnitude < 2 then -- idle
---idle clerp here
-elseif Root.Velocity.Magnitude < 20 then -- walk
---walk clerp here
-elseif Root.Velocity.Magnitude > 20 then -- run
---run clerp here
-end
-elseif Mode == 'Attack0' then
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(5+0*math.cos(sine/13)),RAD(-37+0*math.cos(sine/13)),RAD(1+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(-13+0*math.cos(sine/13)),RAD(30+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(RCF(1+0*math.cos(sine/13),0.5+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(105+0*math.cos(sine/13)),RAD(18+0*math.cos(sine/13)),RAD(30+0*math.cos(sine/13))),.3)
-LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(101+0*math.cos(sine/13)),RAD(18+0*math.cos(sine/13)),RAD(-44+0*math.cos(sine/13))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(18+0*math.cos(sine/13)),RAD(-51+0*math.cos(sine/13)),RAD(12+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(3+0*math.cos(sine/13)),RAD(-2+0*math.cos(sine/13)),RAD(-4+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/2),0.6+0*math.cos(sine/2),-0.5+0*math.cos(sine/2))*ANGLES(RAD(0+0*math.cos(sine/2)),RAD(0+0*math.cos(sine/2)),RAD(0+0*math.cos(sine/2))),.3)
-elseif Mode == 'Attack1' then
-NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(-13+0*math.cos(sine/13)),RAD(-30+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-RS.C0 = RS.C0:Lerp(CF(1+0*math.cos(sine/13),0+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(101+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(14+0*math.cos(sine/13))),.3)
-LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(105+0*math.cos(sine/13)),RAD(-15+0*math.cos(sine/13)),RAD(-15+0*math.cos(sine/13))),.3)
-RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+-0.1*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(21+0*math.cos(sine/13)),RAD(30+0*math.cos(sine/13)),RAD(-11+0*math.cos(sine/13))),.3)
-reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0 = reanim['WDW_FoamFinger'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/2),0.6+0*math.cos(sine/2),-0.5+0*math.cos(sine/2))*ANGLES(RAD(21+2*math.cos(sine/2)),RAD(0+0*math.cos(sine/2)),RAD(0+0*math.cos(sine/2))),.3)
-end
-srv.RenderStepped:Wait()
-end
-end)()
-
-local muter = false
-local ORGID = 335167645
-local ORVOL = 1.15
-local ORPIT = 1.01
-local kan = Instance.new("Sound",char)
-kan.Volume = 0
-if not NoSound then
-	kan.Volume = 1.15
-end
-kan.TimePosition = 0
-kan.PlaybackSpeed = 1.01
-kan.Pitch = 1.01
-kan.SoundId = "rbxassetid://335167645"
-kan.Name = "Saitama"
-kan.Looped = true
-kan:Play()
-	end,
-})
 
 local Button = ScriptTab:CreateButton({
 	Name = "Ball Spin",
@@ -697,587 +503,18 @@ local Button = ScriptTab:CreateButton({
 local Button = ScriptTab:CreateButton({
 	Name = "Spoodermen",
 	Callback = function()
-        --Edited by MrXTriceratops! AKA Spiderman!
-function clerp(c1,c2,al)
-	local com1 = {c1.X,c1.Y,c1.Z,c1:toEulerAnglesXYZ()}
-	local com2 = {c2.X,c2.Y,c2.Z,c2:toEulerAnglesXYZ()}
-	for i,v in pairs(com1) do 
-		com1[i] = v+(com2[i]-v)*al
-	end
-	return CFrame.new(com1[1],com1[2],com1[3]) * CFrame.Angles(select(4,unpack(com1)))
- end
- 
- plr = game:service'Players'.LocalPlayer
- plrgui = plr.PlayerGui
- char = plr.Character
- mouse = plr:GetMouse()
- humanoid = char:findFirstChild("Humanoid")
- torso = char:findFirstChild("Torso")
- head = char.Head
- ra = char:findFirstChild("Right Arm")
- la = char:findFirstChild("Left Arm")
- rl = char:findFirstChild("Right Leg")
- ll = char:findFirstChild("Left Leg")
- rs = torso:findFirstChild("Right Shoulder")
- ls = torso:findFirstChild("Left Shoulder")
- rh = torso:findFirstChild("Right Hip")
- lh = torso:findFirstChild("Left Hip")
- neck = torso:findFirstChild("Neck")
- rj = char:findFirstChild("HumanoidRootPart"):findFirstChild("RootJoint")
- rootpart = char:findFirstChild("HumanoidRootPart")
- camera = workspace.CurrentCamera
- anim = char:findFirstChild("Animate")
- if anim then
- anim:Destroy()
- end
- 
- local rm = Instance.new("Weld", torso)
- rm.C0 = CFrame.new(1.5, 0.5, 0)
- rm.C1 = CFrame.new(0, 0.5, 0)
- rm.Part0 = torso
- rm.Part1 = ra
- rm.Name = 'Right Shoulder'
- 
- local lm = Instance.new("Weld", torso)
- lm.C0 = CFrame.new(-1.5, 0.5, 0)
- lm.C1 = CFrame.new(0, 0.5, 0)
- lm.Part0 = torso
- lm.Part1 = la
- lm.Name = 'Left Shoulder'
- 
- local rlegm = Instance.new("Weld", torso)
- rlegm.C0 = CFrame.new(0.5, -1, 0)
- rlegm.C1 = CFrame.new(0, 1, 0)
- rlegm.Part0 = torso
- rlegm.Part1 = rl
- 
- local llegm = Instance.new("Weld", torso)
- llegm.C0 = CFrame.new(-0.5, -1, 0)
- llegm.C1 = CFrame.new(0, 1, 0)
- llegm.Part0 = torso
- llegm.Part1 = ll
- 
- rj.C0 = CFrame.new()
- rj.C1 = CFrame.new()
- 
- neck.C0 = CFrame.new(0, 1, 0)
- neck.C1 = CFrame.new(0, -0.5, 0)
- 
- 
- local speed = 0.3
- local angle = 0
- local anglespeed = 1
- rsc0 = rm.C0
- lsc0 = lm.C0
- llc0 = llegm.C0
- rlc0 = rlegm.C0
- rootc0 = rj.C0
- neckc0 = neck.C0
- 
- model = Instance.new('Model', char)
- model.Name = '3DG'
- function Weld(part0,part1,c1,c0)
- local w = Instance.new('Weld', model)
- w.Part0 = part0
- w.Part1 = part1
- w.C0 = c0 or CFrame.new()
- w.C1 = c1 or CFrame.new()
- end
- 
- local BasePart = Instance.new('Part')
- BasePart.FormFactor = 'Custom'
- BasePart.Material = 'Neon'
- BasePart.CanCollide = false
- BasePart.Locked = true
- BasePart.TopSurface = 10
- BasePart.BottomSurface = 10
- BasePart.LeftSurface = 10
- BasePart.RightSurface = 10
- BasePart.FrontSurface = 10
- BasePart.BackSurface = 10
- BasePart:breakJoints()
- 
- 
- for i = 1,2 do
- local strap = BasePart:clone()
- strap.Size = Vector3.new(1.025,.2,1.025)
- strap.Parent = model
- strap.BrickColor = BrickColor.new()
-	strap:BreakJoints()
- Weld(strap, la, CFrame.new(0, .1 - i/3,0))
- end
- 
- for i = 1,2 do
- local strap = BasePart:clone()
- strap.Size = Vector3.new(1.025,.2,1.025)
- strap.Parent = model
- strap.BrickColor = BrickColor.new()
-	strap:BreakJoints()
- Weld(strap, ra, CFrame.new(0, .1 - i/3,0))
- end
- 
- local ropeStart = BasePart:clone()
-	ropeStart.Size = Vector3.new(.2,1.75,.2)
-	ropeStart.Parent = model
-	ropeStart.BrickColor = BrickColor.new()
-	ropeStart:BreakJoints()
-	Weld(ropeStart, ra, CFrame.new(-.45, -.5, 0))
- local ropeStart2 = BasePart:clone()
-	ropeStart2.Size = Vector3.new(.2,1.75,.2)
-	ropeStart2.Parent = model
-	ropeStart2.BrickColor = BrickColor.new()
-	ropeStart2:BreakJoints()
-	Weld(ropeStart2, la, CFrame.new(.45, -.5, 0))
- 
- local pa = BasePart:clone()
- pa.BrickColor = BrickColor.new()
- pa.Anchored = true
- pa.Size = Vector3.new(.5,1,.5)
- local special = Instance.new('SpecialMesh', pa)
- special.MeshId = "rbxassetid://1033714"
- special.Scale = Vector3.new(.25,2,.25)
- local ropePA = BasePart:clone()
- ropePA.Parent = pa
- ropePA.Anchored = true
- ropePA.BrickColor = BrickColor.new'White'
- Instance.new('CylinderMesh', ropePA).Scale = Vector3.new(.25,1,.25)
- 
- local pa2 = BasePart:clone()
- pa2.BrickColor = BrickColor.new()
- pa2.Anchored = true
- pa2.Size = Vector3.new(.5,1,.5)
- local special = Instance.new('SpecialMesh', pa2)
- special.MeshId = "rbxassetid://1033714"
- special.Scale = Vector3.new(.25,2,.25)
- local ropePA2 = BasePart:clone()
- ropePA2.Parent = pa2
- ropePA2.Anchored = true
- ropePA2.BrickColor = BrickColor.new'White'
- Instance.new('CylinderMesh', ropePA2).Scale = Vector3.new(.25,1,.25)
- 
- local pa3 = BasePart:clone()
- pa3.Transparency = 1
- pa3.Anchored = true
- pa3.Size = Vector3.new(2,2,2)
- 
- local torso3 = Instance.new('Part', char)
- torso3.Name = 'FakeTorsoForStuff'
- torso3.Size = torso.Size
- torso3.Transparency = 1
- torso3:breakJoints()
- Weld(torso3, torso)
- 
- local bodygyro = Instance.new('BodyGyro', torso)
-	bodygyro.maxTorque = Vector3.new(14e16,14e16,14e16)
-	bodygyro.P = 10000
- 
-		ro=Instance.new("RocketPropulsion",rootpart)
-		ro.Name = 'RockatPropoolsun'
-		ro.MaxSpeed=550
-		ro.MaxThrust=9000
-		ro.TurnP = 57
-		ro.MaxTorque=Vector3.new(14e16,14e16,14e16)
- 
-		ro2=Instance.new("RocketPropulsion",torso)
-		ro2.Name = 'RockatPropoolsun2'
-		ro2.MaxSpeed=550
-		ro2.MaxThrust=9000
-		ro2.TurnP = 57
-		ro2.MaxTorque=Vector3.new(14e16,14e16,14e16)
- local run
- mouse.KeyDown:connect(function(k)
-	if k:byte() == 48 then
-		run = not run
-		if run then
-			humanoid.WalkSpeed = 35
-		else
-			humanoid.WalkSpeed = 14
-		end
-	end
-	if k:byte() == 32 then
-		if Grapple1 or Grapple2 then
-		wait()
-		humanoid.PlatformStand = true
-		rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
-		llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
-		if pa3.Parent ~= nil then
-			ro3:Fire()
-		end
-		if Grapple1 then
-			ro:Fire()
-		end
-		if Grapple2 then
-			ro2:Fire()
-		end
-		end
-	end
-	if k=="q" then
-		local sound = Instance.new('Sound', head)
-		sound.SoundId = "rbxassetid://151733071"
-		sound.Pitch = 3+math.random()/3
-		sound.Volume = .8
-		sound:play()
-		game:service'Debris':AddItem(sound,4)
-		lm.Parent = torso
-		pa.CFrame = la.CFrame
-			local grapplepos = pa.Position
-			local grapplevelocity = (mouse.Hit.p - grapplepos).unit*50
-			local lastgrapplepos = pa.Position 
-			while wait() do
-				lastgrapplepos = grapplepos 
-				grapplepos = grapplepos + grapplevelocity
-				local RayCast = Ray.new(lastgrapplepos, (grapplepos - lastgrapplepos))
-				local hit, hitpos = workspace:FindPartOnRay(RayCast, char)
-				if (torso.Position - pa.Position).magnitude > 900 then
-					pa.Parent = nil
-					break
-				end
-				pa.Anchored = true
-				pa.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
-				pa.Parent = char
-				if hit then
-					local rotX,rotY,rotZ = pa.CFrame:toEulerAnglesXYZ()
-					local sound = Instance.new('Sound', head)
-					sound.SoundId = "rbxassetid://151733071"
-					sound.Pitch = 1.2+math.random()/3
-					sound.Volume = .45
-					sound:play()
-					game:service'Debris':AddItem(sound,4)
-					pa.Parent = char
-					pa.CFrame=CFrame.new(hitpos.x, hitpos.y, hitpos.z)*CFrame.Angles(rotX,rotY,rotZ)*CFrame.Angles(math.pi,0,0)
-					ro.Target=pa
-					lm.Parent = torso
-					local ray = Ray.new(rootpart.Position, Vector3.new(0, -6, 0))
-					local hitz, enz = workspace:FindPartOnRay(ray, char)
-					local hum = hit and hit.Parent and hit.Parent:findFirstChild'Humanoid'
-					if hum then
-						hum:TakeDamage(math.random(7,11))
-					end
-					local hum = hit and hit.Parent and hit.Parent.Parent and hit.Parent.Parent:findFirstChild'Humanoid'
-					if hum then
-						hum:TakeDamage(math.random(7,11))
-					end
-					if pa.Parent ~= nil and humanoid.PlatformStand or not (hitz and hitz.CanCollide) then
-						ro:Fire()
-						if jumpmode then
-							humanoid.Jump = true
-						end
-					end
-					Gweld = Instance.new("Weld", char)
-					Gweld.C0 = hit.CFrame:toObjectSpace(pa.CFrame)
-					Gweld.Part0 = hit
-					Gweld.Part1 = pa
-					pa.Anchored = false
-					Grapple1Hit = hit
-					Grapple1 = true
-					break
-				end
-				pa.Anchored = true
-				pa.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
-			end
-	end
-	if k=="e" then
-		local sound = Instance.new('Sound', head)
-		sound.SoundId = "rbxassetid://151733071"
-		sound.Pitch = 3+math.random()/3
-		sound.Volume = .8
-		sound:play()
-		game:service'Debris':AddItem(sound,4)
-			pa2.CFrame = ra.CFrame
-			rm.Parent = torso
-			local grapplepos = pa2.Position
-			local grapplevelocity = (mouse.Hit.p - grapplepos).unit*50
-			local lastgrapplepos = pa2.Position 
-			while wait() do
-				lastgrapplepos = grapplepos 
-				grapplepos = grapplepos + grapplevelocity
-				local RayCast = Ray.new(lastgrapplepos, (grapplepos - lastgrapplepos))
-				local hit, hitpos = workspace:FindPartOnRay(RayCast, char)
-				if (torso.Position - pa2.Position).magnitude > 900 then
-					pa2.Parent = nil
-					break
-				end
-				pa2.Anchored = true
-				pa2.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
-				pa2.Parent = char
-				if hit then
-					local rotX,rotY,rotZ = pa2.CFrame:toEulerAnglesXYZ()
-					local sound = Instance.new('Sound', head)
-					sound.SoundId = "rbxassetid://151733071"
-					sound.Pitch = 1.2+math.random()/3
-					sound.Volume = .45
-					sound:play()
-					game:service'Debris':AddItem(sound,4)
-					pa2.Parent = char
-					pa2.CFrame=CFrame.new(hitpos.x, hitpos.y, hitpos.z)*CFrame.Angles(rotX,rotY,rotZ)*CFrame.Angles(math.pi,0,0)
-					ro2.Target=pa2
-					rm.Parent = torso
-					local ray = Ray.new(rootpart.Position, Vector3.new(0, -6, 0))
-					local hitz, enz = workspace:FindPartOnRay(ray, char)
-					local hum = hit and hit.Parent and hit.Parent:findFirstChild'Humanoid'
-					if hum then
-						hum:TakeDamage(math.random(7,11))
-					end
-					local hum = hit and hit.Parent and hit.Parent.Parent and hit.Parent.Parent:findFirstChild'Humanoid'
-					if hum then
-						hum:TakeDamage(math.random(7,11))
-					end
-					if pa2.Parent ~= nil and humanoid.PlatformStand or not (hitz and hitz.CanCollide) then
-						if jumpmode then
-							humanoid.Jump = true
-						end
-						ro2:Fire()
-					end
-					Gweld2 = Instance.new("Weld", char)
-					Gweld2.C0 = hit.CFrame:toObjectSpace(pa2.CFrame)
-					Gweld2.Part0 = hit
-					Gweld2.Part1 = pa2
-					pa2.Anchored = false
-					Grapple2Hit = hit
-					Grapple2 = true
-					break
-				end
-				pa2.Anchored = true
-				pa2.CFrame = CFrame.new(grapplepos, grapplepos+grapplevelocity) * CFrame.Angles(math.pi/2, 0, 0)
-			end
-	end
- end)
- 
- mouse.KeyUp:connect(function(k)
-	if k=="q" then
-		pcall(function() Gweld:remove() end)
-		game:service'RunService'.RenderStepped:wait()
-		pcall(function() pa.Parent = nil Grapple1 = false end)
-		pcall(function() ro:Abort() end)
-		game:service'RunService'.RenderStepped:wait()
-		pcall(function() ro2.Target=pa2 if Grapple2 and humanoid.PlatformStand or Grapple2 and not hitz then ro2:Fire() end end)
-	elseif k=="e" then
-		pcall(function() Gweld2:remove() end)
-		game:service'RunService'.RenderStepped:wait()
-		pcall(function() pa2.Parent = nil Grapple2 = false end)
-		pcall(function() ro2:Abort() end)
-		game:service'RunService'.RenderStepped:wait()
-		pcall(function() ro.Target=pa if Grapple1 and humanoid.PlatformStand or Grapple1 and not hitz then ro:Fire() end end)
-	end
- end)
- 
- 
- local MidPointUsed = false
- local TorsoSmoke = Instance.new('Smoke', torso)
- 
- 
- game:service'RunService'.RenderStepped:connect(function()
-		angle = (angle % 100) + anglespeed/10
-		mvmnt = math.pi * math.sin(math.pi*2/100*(angle*10))
-		local rscf = rsc0
-		local lscf = lsc0
-		local rlcf = rlc0
-		local llcf = llc0
-		local rjcf = rootc0
-		local ncf = neckc0
-		for i,object in pairs(char:children()) do
-			if object:IsA("Tool") then
-				tool = true
-				if not debounce then
-				for x,value in pairs(object:children()) do
-					if value:IsA("StringValue") and value.Name == "toolanim" and value.Value == "Slash" then
-						debounce = true
-						coroutine.wrap(function()
-						slashing = true
-						wait(.25)
-						slashing = false
-						debounce = false
-					end)()
-					value:Destroy()
-					end
-				end
-				end
-			elseif not object:IsA'Tool' then
-				tool = false
-			end
-		end
-		if not humanoid.PlatformStand then
-			if humanoid.Sit == true then
-				speed = 0.2
-				anglespeed = 1/4
-						ncf = neckc0 * CFrame.Angles(0, 0, 0)
-						rjcf = rootc0
-						rscf = rsc0 * CFrame.Angles(math.pi/2+math.sin(-angle)*0.05, 0, 0)
-						lscf = lsc0 * CFrame.Angles(math.pi/2+math.sin(-angle)*0.05, 0, 0)
-						rlcf = rlc0 * CFrame.Angles(math.pi/2+-math.rad(.2), 0, math.rad(.2))
-						llcf = llc0 * CFrame.Angles(math.pi/2+math.rad(.2), 0, -math.rad(.2))
-			elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude <= 2 then
-					anglespeed = 1/4
-						speed = 0.2
-						ncf = neckc0 * CFrame.Angles(math.sin(angle)*0.075, 0, 0)
-						rjcf = rootc0
-						rscf = rsc0 * CFrame.new(0, math.sin(angle)*0.05, 0) * CFrame.Angles(math.sin(-angle)*0.05, 0, 0)
-						lscf = lsc0 * CFrame.new(0, math.sin(angle)*0.05, 0) * CFrame.Angles(math.sin(-angle)*0.05, 0, 0)
-						rlcf = rlc0 * CFrame.Angles(-math.rad(.2), 0, math.rad(.2))
-						llcf = llc0 * CFrame.Angles(math.rad(.2), 0, -math.rad(.2))
-			elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude <= 20 then
-						anglespeed = 1.7
-						speed = 0.25
-						anglespeed = 2.2
-						speed = 0.25
-						ncf = neckc0 * CFrame.Angles(0, 0, 0)
-						rjcf = rootc0 * CFrame.new(0, math.abs(math.sin(angle))*.055, 0) * CFrame.Angles(-math.rad(1), 0, 0)
-						rscf = rsc0 * CFrame.Angles(math.sin(angle)*.5, 0, -math.rad(1))
-						lscf = lsc0 * CFrame.Angles(math.sin(-angle)*.5, 0, math.rad(1))
-						rlcf = rlc0 * CFrame.new(0, .075 + -math.cos(-angle)*.075, math.sin(angle)*0.1) * CFrame.Angles(math.sin(-angle)*.45, 0, math.rad(.5))
-						llcf = llc0 * CFrame.new(0, .075 - -math.cos(angle)*.075, -math.sin(angle)*0.1) * CFrame.Angles(math.sin(angle)*.45, 0, -math.rad(.5))
-			elseif Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude >= 20 then
-				local RotVelocityZ = torso.RotVelocity.Y
-				if RotVelocityZ >= 15 then
-					RotVelocityZ = 15
-				elseif RotVelocityZ <= -15 then
-					RotVelocityZ = -15
-				end
-					speed = 0.25
-					anglespeed = 2.7
-					ncf = neckc0 * CFrame.Angles(0, 0, -math.sin(angle)*.045)
-					rscf = rsc0 * CFrame.new(0, 0, -math.sin(angle)*0.125) * CFrame.Angles(math.pi/14+math.sin(angle)*1.5, 0, -math.sin(math.abs(angle))*0.3)
-					lscf = lsc0 * CFrame.new(0, 0, math.sin(angle)*0.125) * CFrame.Angles(math.pi/14+math.sin(-angle)*1.5, 0, -math.sin(math.abs(angle))*0.3)
-					rjcf = rootc0 * CFrame.new(0, math.abs(math.sin(angle))*.175 - .2, 0) * CFrame.Angles(math.abs(math.sin(angle))*0.055 + -math.pi/18, 0, math.rad(RotVelocityZ) + math.sin(angle)*.045)
-					rlcf = rlc0 * CFrame.new(0, .3 + -math.cos(-angle)*.3, -.2+math.sin(angle)*0.25) * CFrame.Angles(-math.pi/18+math.sin(-angle)*1.3, 0, math.rad(.5))
-					llcf = llc0 * CFrame.new(0, .3 - -math.cos(angle)*.3, -.05-math.sin(angle)*0.25) * CFrame.Angles(-math.pi/18+math.sin(angle)*1.3, 0, -math.rad(.5))
-			end
-			if tool then
-				rscf = rsc0 * CFrame.Angles(math.pi/2, 0, 0)
-				if slashing then
-					rscf = rsc0
-				end
-			end
-		end
-	if pa2.Parent == nil then
-	rm.C0 = clerp(rm.C0,rscf,speed)
-	end
-	if pa.Parent == nil then
-	lm.C0 = clerp(lm.C0,lscf,speed)
-	end
-	rj.C0 = clerp(rj.C0,rjcf,speed)
-	neck.C0 = clerp(neck.C0,ncf,speed)
-	rlegm.C0 = clerp(rlegm.C0,rlcf,speed)
-	llegm.C0 = clerp(llegm.C0,llcf,speed)
- end)
- 
- 
- 
- game:service'RunService'.RenderStepped:connect(function()
-	if Vector3.new(torso.Velocity.x, 0, torso.Velocity.z).magnitude >= 225 then
-		TorsoSmoke.Enabled = true
-	else
-		TorsoSmoke.Enabled = false
-	end
-	local ray = Ray.new(rootpart.Position, Vector3.new(0, -7, 0))
-	local hitz, enz = workspace:FindPartOnRay(ray, char)
-	if hitz and hitz.CanCollide and pa.Parent ~= char and pa2.Parent ~= char then
-		bodygyro.Parent = nil
-		humanoid.PlatformStand = false
-	end
-	if pa.Parent ~= nil or Grapple1 then
-		local size = (ropeStart2.Position-pa.Position).magnitude
-			ropePA.Size = Vector3.new(.2, size, .2) 
-			ropePA.CFrame = CFrame.new(ropeStart2.Position, pa.Position) * CFrame.Angles(math.pi/2, 0, 0) * CFrame.new(0, -size/2, 0)
-		lm.C0 = CFrame.new(Vector3.new(lsc0.x, lsc0.y, lsc0.z), torso.CFrame:pointToObjectSpace(pa.Position)) * CFrame.Angles(math.pi/2, 0, 0)
-	else
-		if not debounce and humanoid.PlatformStand then
-			lm.C0 = lsc0 * CFrame.Angles(-.15, 0, -.15)
-		end
-	end
-	if pa2.Parent ~= nil or Grapple2 then
-		local size = (ropeStart.Position-pa2.Position).magnitude
-			ropePA2.Size = Vector3.new(.2, size, .2) 
-			ropePA2.CFrame = CFrame.new(ropeStart.Position, pa2.Position) * CFrame.Angles(math.pi/2, 0, 0) * CFrame.new(0, -size/2, 0)
-		rm.C0 = CFrame.new(Vector3.new(rsc0.x, rsc0.y, rsc0.z), torso.CFrame:pointToObjectSpace(pa2.Position)) * CFrame.Angles(math.pi/2, 0, 0)
-	else
-		if not debounce and humanoid.PlatformStand then
-			rm.C0 = rsc0 * CFrame.Angles(-.15, 0, .15)
-		end
-	end
-	if Grapple1 and Grapple1Hit.Parent == nil then
-		pcall(function() Gweld:remove() end)
-		pa.Parent = nil
-		Grapple1 = false
-		ro:Abort()
-	end
-	if Grapple2 and Grapple2Hit.Parent == nil then
-		pcall(function() Gweld2:remove() end)
-		pa2.Parent = nil
-		Grapple2 = false
-		ro2:Abort()
-	end
-	if Grapple1 and Grapple2 and (humanoid.PlatformStand or not hitz) then
-		local distance = (pa.Position-pa2.Position).magnitude
-		bodygyro.Parent = torso
-		torso.CFrame = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
-		bodygyro.cframe = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
-		pa3.Parent = char
-			if distance <= .5 then
-				pa3.CFrame = pa.CFrame
-			elseif distance > .5 then
-				pa3.CFrame = CFrame.new(pa.Position, pa2.Position) * CFrame.new(0, 0, -distance/2)
-			end
-		if not MidPointUsed then
-		ro3=Instance.new("RocketPropulsion",torso3)
-		ro3.Name = 'RockatPropoolsun3'
-		ro3.MaxSpeed=550
-		ro3.MaxThrust=16000
-		ro3.TurnP = 57
-		ro3.TurnD = 0
-		ro3.MaxTorque=Vector3.new(14e16,14e16,14e16)
-		if humanoid.PlatformStand or not hitz then
-			ro:Abort()
-			ro2:Abort()
-		end
-			ro3.Target = pa3
-			if humanoid.PlatformStand or not hitz then
-				ro3:Fire()
-			end
-			MidPointUsed = true
-		end
-	elseif (not Grapple1 or not Grapple2) and MidPointUsed == true and (humanoid.PlatformStand or not hitz) then
-		pa3.Parent = nil
-		MidPointUsed = false
-		ro3:Abort()
-		ro3:Destroy()
-		if Grapple1 then
-			ro:Fire()
-		end
-		if Grapple2 then
-			ro2:Fire()
-		end
-	end
-	if not Grapple1 then
-		pcall(function() Gweld:remove() end)
-	end
-	if not Grapple2 then
-		pcall(function() Gweld2:remove() end)
-	end
-	if (Grapple1 or Grapple2) and not hitz then
-		bodygyro.Parent = torso
-		humanoid.PlatformStand = true
-		rlegm.Parent = torso
-		llegm.Parent = torso
-		lm.Parent = torso
-		rm.Parent = torso
-		rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
-		llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
-	end
-	if (Grapple1 or Grapple2) and not hitz or humanoid.PlatformStand then
-		bodygyro.Parent = torso
-		bodygyro.cframe = CFrame.new(torso.Position, Vector3.new(camera.CoordinateFrame.x, camera.CoordinateFrame.y, camera.CoordinateFrame.z)) * CFrame.Angles(0, math.pi, 0)
-		rlegm.Parent = torso
-		llegm.Parent = torso
-		rlegm.C0 = rlc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, .1)
-		llegm.C0 = llc0 * CFrame.new(0, .5, -.65) * CFrame.Angles(-math.pi/8, 0, -.1)
-	end
- end)
- repeat wait() until game.Players.LocalPlayer.Character
- repeat wait(1) until game.Players.LocalPlayer.Character:IsDescendantOf(game.Workspace)
- wait(4 / 20)
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Solomonexy/Spooderman/main/swing.lua')))()
 	end,
 })
+
+local Button = brazil:CreateButton({
+	Name = "Bmx Bike [HATS NEEDED]",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Solomonexy/bmx-biek/main/clickfling.lua"))()
+	end,
+})
+
+
 
 local Button = brazil:CreateButton({
 	Name = "Sniper Fling [EXECUTE PENDULUM HUB FIRST]",
